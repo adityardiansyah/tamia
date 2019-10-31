@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style media="screen">
+		body{
+			background : -moz-linear-gradient(11.33% -10.47% -41.33deg,rgba(49, 0, 161, 1) 0%,rgba(55, 0, 161, 1) 13.17%,rgba(71, 0, 160, 1) 30.27%,rgba(98, 0, 158, 1) 49.54%,rgba(135, 0, 156, 1) 70.4%,rgba(183, 0, 153, 1) 92.31%,rgba(201, 0, 152, 1) 100%);
+		  background : -webkit-linear-gradient(-41.33deg, rgba(49, 0, 161, 1) 0%, rgba(55, 0, 161, 1) 13.17%, rgba(71, 0, 160, 1) 30.27%, rgba(98, 0, 158, 1) 49.54%, rgba(135, 0, 156, 1) 70.4%, rgba(183, 0, 153, 1) 92.31%, rgba(201, 0, 152, 1) 100%);
+		  background : -webkit-gradient(linear,11.33% -10.47% ,62.29% 69.22% ,color-stop(0,rgba(49, 0, 161, 1) ),color-stop(0.1317,rgba(55, 0, 161, 1) ),color-stop(0.3027,rgba(71, 0, 160, 1) ),color-stop(0.4954,rgba(98, 0, 158, 1) ),color-stop(0.704,rgba(135, 0, 156, 1) ),color-stop(0.9231,rgba(183, 0, 153, 1) ),color-stop(1,rgba(201, 0, 152, 1) ));
+		  background : -o-linear-gradient(-41.33deg, rgba(49, 0, 161, 1) 0%, rgba(55, 0, 161, 1) 13.17%, rgba(71, 0, 160, 1) 30.27%, rgba(98, 0, 158, 1) 49.54%, rgba(135, 0, 156, 1) 70.4%, rgba(183, 0, 153, 1) 92.31%, rgba(201, 0, 152, 1) 100%);
+		  background : -ms-linear-gradient(-41.33deg, rgba(49, 0, 161, 1) 0%, rgba(55, 0, 161, 1) 13.17%, rgba(71, 0, 160, 1) 30.27%, rgba(98, 0, 158, 1) 49.54%, rgba(135, 0, 156, 1) 70.4%, rgba(183, 0, 153, 1) 92.31%, rgba(201, 0, 152, 1) 100%);
+		  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3100A1', endColorstr='#C90098' ,GradientType=0)";
+		  background : linear-gradient(131.33deg, rgba(49, 0, 161, 1) 0%, rgba(55, 0, 161, 1) 13.17%, rgba(71, 0, 160, 1) 30.27%, rgba(98, 0, 158, 1) 49.54%, rgba(135, 0, 156, 1) 70.4%, rgba(183, 0, 153, 1) 92.31%, rgba(201, 0, 152, 1) 100%);
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3100A1',endColorstr='#C90098' , GradientType=1);
+			font-family: 'Poppins';
+		}
+	</style>
+</head>
+<body>
+	<img src="img/bg-1.png" id="bg-1" alt="">
+	<img src="img/bg-2.png" id="bg-2" alt="">
+	<nav class="navbar navbar-expand-lg">
+	  <a class="navbar-brand" href="#">
+	  	<img src="img/logo.png" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" id="quiz" href="#">Quiz</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">About Us</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      	<div class="btn-group" role="group">
+			  <button type="button" class="btn btn-secondary" id="filter-padat">Padat</button>
+			  <button type="button" class="btn btn-secondary" id="filter-cair">Cair</button>
+			  <button type="button" class="btn btn-secondary" id="filter-udara">Udara</button>
+			  <button type="button" class="btn btn-secondary" id="filter-sintetis">Unsur Buatan</button>
+			  <button type="button" class="btn btn-secondary" id="filter-reset">
+			  	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></g></svg>
+			  </button>
+			</div>
+	    </form>
+	  </div>
+	</nav>
+	<div class="container" style="padding:0;">
+			<div class="row element-1">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow" data-pos=1>
+						<a href="#">
+							<div>
+									<span class="txt-no">1</span>
+									<h1 class="txt">H</h1>
+									<p class="txt-caption">Hidrogen</p>
+									<p class="txt-caption-small">1.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="offset-15 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+						<a href="#">
+							<div>
+									<span class="txt-no">2</span>
+									<h1 class="txt">He</h1>
+									<p class="txt-caption">Helium</p>
+									<p class="txt-caption-small">4.002</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-2">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">3</span>
+								<h1 class="txt">Li</h1>
+								<p class="txt-caption">Litium</p>
+								<p class="txt-caption-small">6.941</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">4</span>
+								<h1 class="txt">Be</h1>
+								<p class="txt-caption">Berilium</p>
+								<p class="txt-caption-small">9.012</p>
+						</div>
+					</a>
+				</div>
+				<div class="offset-11 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">5</span>
+								<h1 class="txt">B</h1>
+								<p class="txt-caption">Boron</p>
+								<p class="txt-caption-small">10.811</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green" data-pos=6>
+					<a href="#">
+						<div>
+								<span class="txt-no">6</span>
+								<h1 class="txt">C</h1>
+								<p class="txt-caption">Karbon</p>
+								<p class="txt-caption-small">12.010</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">7</span>
+								<h1 class="txt">N</h1>
+								<p class="txt-caption">Nitrogen</p>
+								<p class="txt-caption-small">14.006</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">8</span>
+								<h1 class="txt">O</h1>
+								<p class="txt-caption">Oksigen</p>
+								<p class="txt-caption-small">15.999</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">9</span>
+								<h1 class="txt">F</h1>
+								<p class="txt-caption">Fluor</p>
+								<p class="txt-caption-small">16.998</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">10</span>
+								<h1 class="txt">Ne</h1>
+								<p class="txt-caption">Neon</p>
+								<p class="txt-caption-small">20.179</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row element-3">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green" data-pos=11>
+					<a href="#">
+						<div>
+								<span class="txt-no">11</span>
+								<h1 class="txt">Na</h1>
+								<p class="txt-caption">Natrium</p>
+								<p class="txt-caption-small">22.898</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green" data-pos=12>
+					<a href="#">
+						<div>
+								<span class="txt-no">12</span>
+								<h1 class="txt">Mg</h1>
+								<p class="txt-caption">Magnesium</p>
+								<p class="txt-caption-small">24.305</p>
+						</div>
+					</a>
+				</div>
+				<div class="offset-11 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">13</span>
+								<h1 class="txt">Ai</h1>
+								<p class="txt-caption">Aluminium</p>
+								<p class="txt-caption-small">26.981</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">14</span>
+								<h1 class="txt">Si</h1>
+								<p class="txt-caption">Silicon</p>
+								<p class="txt-caption-small">18.085</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">15</span>
+								<h1 class="txt">P</h1>
+								<p class="txt-caption">Fosfor</p>
+								<p class="txt-caption-small">30,973</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+					<a href="#">
+						<div>
+								<span class="txt-no">16</span>
+								<h1 class="txt">S</h1>
+								<p class="txt-caption">Belerang</p>
+								<p class="txt-caption-small">32.065</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">17</span>
+								<h1 class="txt">CI</h1>
+								<p class="txt-caption">Klor</p>
+								<p class="txt-caption-small">35.453</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+					<a href="#">
+						<div>
+								<span class="txt-no">18</span>
+								<h1 class="txt">Ar</h1>
+								<p class="txt-caption">Argan</p>
+								<p class="txt-caption-small">39.948s</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row element-4">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">19</span>
+									<h1 class="txt">K</h1>
+									<p class="txt-caption">Kalium</p>
+									<p class="txt-caption-small">1.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">20</span>
+									<h1 class="txt">Ca</h1>
+									<p class="txt-caption">Kalsium</p>
+									<p class="txt-caption-small">40.078</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">21</span>
+									<h1 class="txt">Sc</h1>
+									<p class="txt-caption">Skandium</p>
+									<p class="txt-caption-small">44.955</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">22</span>
+									<h1 class="txt">Ti</h1>
+									<p class="txt-caption">Titanium</p>
+									<p class="txt-caption-small">47.867</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">23</span>
+									<h1 class="txt">V</h1>
+									<p class="txt-caption">Vanadium</p>
+									<p class="txt-caption-small">50.941</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">24</span>
+									<h1 class="txt">Cr</h1>
+									<p class="txt-caption">Krom</p>
+									<p class="txt-caption-small">51.996</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">25</span>
+									<h1 class="txt">Mn</h1>
+									<p class="txt-caption">Mangan</p>
+									<p class="txt-caption-small">54.938</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">26</span>
+									<h1 class="txt">Fe</h1>
+									<p class="txt-caption">Besi</p>
+									<p class="txt-caption-small">55.845</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">27</span>
+									<h1 class="txt">Co</h1>
+									<p class="txt-caption">Kobalt</p>
+									<p class="txt-caption-small">58.933</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">28</span>
+									<h1 class="txt">Ni</h1>
+									<p class="txt-caption">Nikel</p>
+									<p class="txt-caption-small">58.893</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">29</span>
+									<h1 class="txt">Cu</h1>
+									<p class="txt-caption">Tembaga</p>
+									<p class="txt-caption-small">63.546</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">30</span>
+									<h1 class="txt">Zn</h1>
+									<p class="txt-caption">Seng</p>
+									<p class="txt-caption-small">65.409</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-blue">
+						<a href="#">
+							<div>
+									<span class="txt-no">31</span>
+									<h1 class="txt">Ga</h1>
+									<p class="txt-caption">Galium</p>
+									<p class="txt-caption-small">69.723</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">32</span>
+									<h1 class="txt">Ge</h1>
+									<p class="txt-caption">Germanium</p>
+									<p class="txt-caption-small">72.640</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">33</span>
+									<h1 class="txt">As</h1>
+									<p class="txt-caption">Arsan</p>
+									<p class="txt-caption-small">74.921</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">34</span>
+									<h1 class="txt">Se</h1>
+									<p class="txt-caption">Selenium</p>
+									<p class="txt-caption-small">78.960</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-blue">
+						<a href="#">
+							<div>
+									<span class="txt-no">35</span>
+									<h1 class="txt">Br</h1>
+									<p class="txt-caption">Brom</p>
+									<p class="txt-caption-small">79.904</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+						<a href="#">
+							<div>
+									<span class="txt-no">36</span>
+									<h1 class="txt">Kr</h1>
+									<p class="txt-caption">Kripton</p>
+									<p class="txt-caption-small">83.796</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-5">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">37</span>
+									<h1 class="txt">Rb</h1>
+									<p class="txt-caption">Rubidium</p>
+									<p class="txt-caption-small">85.457</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">38</span>
+									<h1 class="txt">Sr</h1>
+									<p class="txt-caption">Strontium</p>
+									<p class="txt-caption-small">87.623</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">39</span>
+									<h1 class="txt">Y</h1>
+									<p class="txt-caption">Itrium</p>
+									<p class="txt-caption-small">88.905</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">40</span>
+									<h1 class="txt">Zr</h1>
+									<p class="txt-caption">Zirkonium</p>
+									<p class="txt-caption-small">91.234</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">41</span>
+									<h1 class="txt">Nb</h1>
+									<p class="txt-caption">Niabium</p>
+									<p class="txt-caption-small">92.906</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">42</span>
+									<h1 class="txt">Mo</h1>
+									<p class="txt-caption">Molibden</p>
+									<p class="txt-caption-small">95.129</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">43</span>
+									<h1 class="txt">Tc</h1>
+									<p class="txt-caption">Teknetium</p>
+									<p class="txt-caption-small">96.906</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">44</span>
+									<h1 class="txt">Ru</h1>
+									<p class="txt-caption">Ruthenium</p>
+									<p class="txt-caption-small">1.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">45</span>
+									<h1 class="txt">Rh</h1>
+									<p class="txt-caption">Rodium</p>
+									<p class="txt-caption-small">102.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">46</span>
+									<h1 class="txt">Pd</h1>
+									<p class="txt-caption">Paladium</p>
+									<p class="txt-caption-small">104.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">47</span>
+									<h1 class="txt">Ag</h1>
+									<p class="txt-caption">Perak</p>
+									<p class="txt-caption-small">107.212</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">48</span>
+									<h1 class="txt">Cd</h1>
+									<p class="txt-caption">Kadmiun</p>
+									<p class="txt-caption-small">121.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">49</span>
+									<h1 class="txt">In</h1>
+									<p class="txt-caption">Indium</p>
+									<p class="txt-caption-small">114.818</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">50</span>
+									<h1 class="txt">Sn</h1>
+									<p class="txt-caption">Timah</p>
+									<p class="txt-caption-small">123.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">51</span>
+									<h1 class="txt">Sb</h1>
+									<p class="txt-caption">Antiman</p>
+									<p class="txt-caption-small">121.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">52</span>
+									<h1 class="txt">Te</h1>
+									<p class="txt-caption">Telunium</p>
+									<p class="txt-caption-small">127.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">53</span>
+									<h1 class="txt">I</h1>
+									<p class="txt-caption">Yodium</p>
+									<p class="txt-caption-small">123.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+						<a href="#">
+							<div>
+									<span class="txt-no">54</span>
+									<h1 class="txt">Xe</h1>
+									<p class="txt-caption">Xenen</p>
+									<p class="txt-caption-small">123.007</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-6">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-blue">
+						<a href="#">
+							<div>
+									<span class="txt-no">55</span>
+									<h1 class="txt">Cs</h1>
+									<p class="txt-caption">Sesium</p>
+									<p class="txt-caption-small">132.457</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">56</span>
+									<h1 class="txt">Ba</h1>
+									<p class="txt-caption">Barium</p>
+									<p class="txt-caption-small">137.623</p>
+							</div>
+						</a>
+					</div>
+					<div class="offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">72</span>
+									<h1 class="txt">Hf</h1>
+									<p class="txt-caption">Hatnium</p>
+									<p class="txt-caption-small">123.905</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">73</span>
+									<h1 class="txt">Ta</h1>
+									<p class="txt-caption">Tantaium</p>
+									<p class="txt-caption-small">180.234</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">74</span>
+									<h1 class="txt">W</h1>
+									<p class="txt-caption">Tungsten</p>
+									<p class="txt-caption-small">123.323</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">75</span>
+									<h1 class="txt">Re</h1>
+									<p class="txt-caption">Rhenium</p>
+									<p class="txt-caption-small">121.129</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">76</span>
+									<h1 class="txt">Os</h1>
+									<p class="txt-caption">Osmimum</p>
+									<p class="txt-caption-small">212.906</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">77</span>
+									<h1 class="txt">Ir</h1>
+									<p class="txt-caption">Iridium</p>
+									<p class="txt-caption-small">181.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">78</span>
+									<h1 class="txt">Pt</h1>
+									<p class="txt-caption">Platina</p>
+									<p class="txt-caption-small">102.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">79</span>
+									<h1 class="txt">Au</h1>
+									<p class="txt-caption">Emas</p>
+									<p class="txt-caption-small">114.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-blue">
+						<a href="#">
+							<div>
+									<span class="txt-no">80</span>
+									<h1 class="txt">Hg</h1>
+									<p class="txt-caption">Raksa</p>
+									<p class="txt-caption-small">103.212</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">81</span>
+									<h1 class="txt">TI</h1>
+									<p class="txt-caption">Talium</p>
+									<p class="txt-caption-small">122.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">82</span>
+									<h1 class="txt">Pb</h1>
+									<p class="txt-caption">Timbal</p>
+									<p class="txt-caption-small">112.818</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">83</span>
+									<h1 class="txt">Bi</h1>
+									<p class="txt-caption">Bismut</p>
+									<p class="txt-caption-small">123.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">84</span>
+									<h1 class="txt">Po</h1>
+									<p class="txt-caption">Polonium</p>
+									<p class="txt-caption-small">111.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">85</span>
+									<h1 class="txt">At</h1>
+									<p class="txt-caption">Astatin</p>
+									<p class="txt-caption-small">117.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-yellow">
+						<a href="#">
+							<div>
+									<span class="txt-no">86</span>
+									<h1 class="txt">Rn</h1>
+									<p class="txt-caption">Radon</p>
+									<p class="txt-caption-small">123.107</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-7">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-blue">
+						<a href="#">
+							<div>
+									<span class="txt-no">87</span>
+									<h1 class="txt">Fr</h1>
+									<p class="txt-caption">Fransium</p>
+									<p class="txt-caption-small">121.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">88</span>
+									<h1 class="txt">Ra</h1>
+									<p class="txt-caption">Radium</p>
+									<p class="txt-caption-small">132.021</p>
+							</div>
+						</a>
+					</div>
+					<div class="offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">104</span>
+									<h1 class="txt">Rf</h1>
+									<p class="txt-caption">Ruterfordium</p>
+									<p class="txt-caption-small">192.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">105</span>
+									<h1 class="txt">Db</h1>
+									<p class="txt-caption">Dubnium</p>
+									<p class="txt-caption-small">101.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">106</span>
+									<h1 class="txt">Sg</h1>
+									<p class="txt-caption">Seabogium</p>
+									<p class="txt-caption-small">132.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">107</span>
+									<h1 class="txt">Bh</h1>
+									<p class="txt-caption">Bohrium</p>
+									<p class="txt-caption-small">201.027</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">108</span>
+									<h1 class="txt">Hs</h1>
+									<p class="txt-caption">Hasium</p>
+									<p class="txt-caption-small">112.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">109</span>
+									<h1 class="txt">Mt</h1>
+									<p class="txt-caption">Meitnerium</p>
+									<p class="txt-caption-small">187.217</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">110</span>
+									<h1 class="txt">Ds</h1>
+									<p class="txt-caption" style="font-size: 6pt;">Darmstadtium</p>
+									<p class="txt-caption-small" style="font-size: 6pt;">211.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">111</span>
+									<h1 class="txt">Rg</h1>
+									<p class="txt-caption" style="font-size: 6pt;">Roentgenium</p>
+									<p class="txt-caption-small" style="font-size: 6pt;">272</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">112</span>
+									<h1 class="txt">Cn</h1>
+									<p class="txt-caption">Kopemisium</p>
+									<p class="txt-caption-small">287</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">113</span>
+									<h1 class="txt">Nh</h1>
+									<p class="txt-caption">Nihonium</p>
+									<p class="txt-caption-small">286</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">114</span>
+									<h1 class="txt">Fi</h1>
+									<p class="txt-caption">Flerovium</p>
+									<p class="txt-caption-small">289</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">115</span>
+									<h1 class="txt">Mc</h1>
+									<p class="txt-caption">Moskovium</p>
+									<p class="txt-caption-small">121</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">116</span>
+									<h1 class="txt">Lv</h1>
+									<p class="txt-caption">Livermorium</p>
+									<p class="txt-caption-small">293</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">117</span>
+									<h1 class="txt">Ts</h1>
+									<p class="txt-caption">Tenesin</p>
+									<p class="txt-caption-small">204</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">117</span>
+									<h1 class="txt">Og</h1>
+									<p class="txt-caption">Oganeson</p>
+									<p class="txt-caption-small">127</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-8 mt-4">
+					<div class="offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">57</span>
+									<h1 class="txt">La</h1>
+									<p class="txt-caption">Lantanum</p>
+									<p class="txt-caption-small">217</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">58</span>
+									<h1 class="txt">Ce</h1>
+									<p class="txt-caption">Serium</p>
+									<p class="txt-caption-small">129</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">59</span>
+									<h1 class="txt">Pr</h1>
+									<p class="txt-caption" style="font-size: 6pt;">Praseodimium</p>
+									<p class="txt-caption-small" style="font-size: 6pt;">127</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">60</span>
+									<h1 class="txt">Nd</h1>
+									<p class="txt-caption">Neodimium</p>
+									<p class="txt-caption-small">137</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">61</span>
+									<h1 class="txt">Pm</h1>
+									<p class="txt-caption">Prometium</p>
+									<p class="txt-caption-small">237</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">62</span>
+									<h1 class="txt">Sm</h1>
+									<p class="txt-caption">Samarium</p>
+									<p class="txt-caption-small">401</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">63</span>
+									<h1 class="txt">Eu</h1>
+									<p class="txt-caption">Europium</p>
+									<p class="txt-caption-small">210</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">64</span>
+									<h1 class="txt">Gd</h1>
+									<p class="txt-caption">Gadolinium</p>
+									<p class="txt-caption-small">209</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">65</span>
+									<h1 class="txt">Tb</h1>
+									<p class="txt-caption">Terbium</p>
+									<p class="txt-caption-small">212</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">66</span>
+									<h1 class="txt">Dy</h1>
+									<p class="txt-caption">Disprosium</p>
+									<p class="txt-caption-small">128</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">67</span>
+									<h1 class="txt">Ho</h1>
+									<p class="txt-caption">Holmium</p>
+									<p class="txt-caption-small">124</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">68</span>
+									<h1 class="txt">Er</h1>
+									<p class="txt-caption">Erbium</p>
+									<p class="txt-caption-small">143</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">69</span>
+									<h1 class="txt">Tm</h1>
+									<p class="txt-caption">Tulium</p>
+									<p class="txt-caption-small">217</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">70</span>
+									<h1 class="txt">Yb</h1>
+									<p class="txt-caption">Iterbium</p>
+									<p class="txt-caption-small">121</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">71</span>
+									<h1 class="txt">Lu</h1>
+									<p class="txt-caption">Lutotium</p>
+									<p class="txt-caption-small">121.007</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="row element-9 mb-4">
+					<div class="offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">89</span>
+									<h1 class="txt">Ac</h1>
+									<p class="txt-caption">Aktinium</p>
+									<p class="txt-caption-small">227.213</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">90</span>
+									<h1 class="txt">Th</h1>
+									<p class="txt-caption">Torium</p>
+									<p class="txt-caption-small">212.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">91</span>
+									<h1 class="txt">Pa</h1>
+									<p class="txt-caption">Protaktinium</p>
+									<p class="txt-caption-small">243.123</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-green">
+						<a href="#">
+							<div>
+									<span class="txt-no">92</span>
+									<h1 class="txt">U</h1>
+									<p class="txt-caption">Uranium</p>
+									<p class="txt-caption-small">214.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">93</span>
+									<h1 class="txt">Np</h1>
+									<p class="txt-caption">Neptunium</p>
+									<p class="txt-caption-small">1.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">94</span>
+									<h1 class="txt">Pu</h1>
+									<p class="txt-caption">Plutanium</p>
+									<p class="txt-caption-small">214.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">95</span>
+									<h1 class="txt">Am</h1>
+									<p class="txt-caption">Amerisium</p>
+									<p class="txt-caption-small">293.231</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">96</span>
+									<h1 class="txt">Cm</h1>
+									<p class="txt-caption">Ciurium</p>
+									<p class="txt-caption-small">323.213</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">97</span>
+									<h1 class="txt">Bk</h1>
+									<p class="txt-caption">Berkelium</p>
+									<p class="txt-caption-small">242.321</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">98</span>
+									<h1 class="txt">Cf</h1>
+									<p class="txt-caption">Kalifornium</p>
+									<p class="txt-caption-small">232.321</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">99</span>
+									<h1 class="txt">Es</h1>
+									<p class="txt-caption">Einsteinium</p>
+									<p class="txt-caption-small">121.007</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">100</span>
+									<h1 class="txt">Fm</h1>
+									<p class="txt-caption">Fermium</p>
+									<p class="txt-caption-small">243.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">101</span>
+									<h1 class="txt">Md</h1>
+									<p class="txt-caption">Mendelevium</p>
+									<p class="txt-caption-small">246.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">102</span>
+									<h1 class="txt">No</h1>
+									<p class="txt-caption">Nobelium</p>
+									<p class="txt-caption-small">286.207</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 frame-small card-red">
+						<a href="#">
+							<div>
+									<span class="txt-no">103</span>
+									<h1 class="txt">Lr</h1>
+									<p class="txt-caption">Lowrensium</p>
+									<p class="txt-caption-small">260.237</p>
+							</div>
+						</a>
+					</div>
+			</div>
+	</div>
+	<div class="detail-wrapper">
+		<div class="row">
+			<div class="col-14">
+				<div class="detail-content-wrapper">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="img/tt.png" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/tt.png" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/tt.png" alt="Third slide">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+					<!-- <h2>Magnesium</h2>
+					<br><br>
+					<p>
+						Magnesium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Mg dan nomor atom 12. Ia berupa padatan abu-abu mengkilap yang memiliki kemiripan fisik dengan lima unsur lainnya pada kolom kedua (golongan 2, atau logam alkali tanah) tabel periodik: semua unsur golongan 2 memiliki konfigurasi elektron yang sama pada kelopak elektron terluar dan struktur kristal yang serupa.
+					</p>
+					<div class="detail-content-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td>Nomor Atom</td>
+									<td>: 12</td>
+								</tr>
+								<tr>
+									<td>Golongan</td>
+									<td>: golongan 2</td>
+								</tr>
+								<tr>
+									<td>Periode</td>
+									<td>: periode 3</td>
+								</tr>
+								<tr>
+									<td>Bobot standar atom</td>
+									<td>: 24,3050</td>
+								</tr>
+								<tr>
+									<td>Konfigurasi elektron</td>
+									<td>: 2, 8, 2</td>
+								</tr>
+								<tr>
+									<td>Titik Lebur</td>
+									<td>: 923 K</td>
+								</tr>
+								<tr>
+									<td>Titik didih</td>
+									<td>: 1363 K</td>
+								</tr>
+							</tbody>
+						</table>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="menu-detail">
+					<div class="row">
+						<div class="col-18">
+							<div class="detail-exit">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M18.36 19.78L12 13.41l-6.36 6.37l-1.42-1.42L10.59 12L4.22 5.64l1.42-1.42L12 10.59l6.36-6.36l1.41 1.41L13.41 12l6.36 6.36z" fill="white"/></svg>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-18">
+							<div class="detail-cell-title">
+								<h1>
+									Mg
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-18">
+							<div class="detail-cell-subtitle">
+								Magnesium
+							</div>
+						</div>
+					</div>
+					<br><br>
+					<div class="row">
+						<div class="col-16 menu-parent">
+							<div class="detail-cell-info detail-menu-item active detail-cell-info-title">
+								Informasi
+							</div>
+							<div class="detail-cell-info detail-menu-bottom-shadow active">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</div>
+							<div class="detail-cell-info detail-menu-top-shadow active">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-16 menu-parent">
+							<div class="detail-cell-usage detail-menu-item">
+								Penggunaan
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		&copy; Koepepet Reborn
+	</footer>
+</body>
+<!-- <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	let quiz = false;
+	let active_quiz_id = 0;
+	let quiz_questions = [
+		{
+			caption : 'Mg',
+			pos : 12,
+		},
+		{
+			caption : 'Na',
+			pos : 11,
+		},
+		{
+			caption : 'H',
+			pos : 1,
+		},
+		{
+			caption : 'C',
+			pos : 6,
+		},
+	];
+	let quiz_no = 0;
+	$('#quiz').click(function (argument) {
+		if (quiz == false) {
+			quiz = true;
+			$('.txt').css({
+				'opacity' : '0',
+			});
+			$('.txt-caption').css({
+				'opacity' : '0',
+			});
+			$('.txt-caption-small').css({
+				'opacity' : '0',
+			});
+			roll_question(quiz_questions[quiz_no]);
+		}
+	});
+
+	$('.frame-small').click(function (argument) {
+		if (quiz == true) {
+			console.log(quiz_no);
+			console.log(quiz_questions.length);
+			if ($(this).data('pos') == quiz_questions[quiz_no].pos) {
+				window.alert('yeay!');
+				quiz_no++;
+				if (quiz_no < quiz_questions.length) {
+					roll_question(quiz_questions[quiz_no]);
+				}else{
+					window.alert('all is done!');
+					$('.txt').css({
+						'opacity' : '1',
+					});
+					$('.txt-caption').css({
+						'opacity' : '1',
+					});
+					$('.txt-caption-small').css({
+						'opacity' : '1',
+					});
+					$('.quiz-challenge-wrapper').fadeOut('slow', () => { $('.quiz-challenge-wrapper').remove() });
+					quiz = false; quiz_no = 0;
+				}
+			}else{
+				window.alert('wrong!');
+				quiz_no++;
+				if (quiz_no < quiz_questions.length) {
+					roll_question(quiz_questions[quiz_no]);
+				}else{
+					window.alert('all is done!');
+					$('.txt').css({
+						'opacity' : '1',
+					});
+					$('.txt-caption').css({
+						'opacity' : '1',
+					});
+					$('.txt-caption-small').css({
+						'opacity' : '1',
+					});
+					$('.quiz-challenge-wrapper').fadeOut('fast', () => { $('.quiz-challenge-wrapper').remove() });
+					quiz = false; quiz_no = 0;
+				}
+			}
+		}else{
+			$('.detail-wrapper').show()
+			// .animate({
+			// 	'marginTop' : '-3vh',
+			// }, 'slow')
+			.animate({
+				'marginTop' : '3vh',
+			}, 'slow', 'swing').css({
+				'position' : 'fixed'
+			});
+		}
+	});
+
+	$('#filter-padat').click(() => {
+		$('.dark-cover').remove();
+		$('body').append(`
+			<div class="dark-cover"></div>
+			`);
+		$('.dark-cover').css({
+			height : $('body').height(),
+			'z-index' : '1',
+		});
+		$('.card-blue,.card-red,.card-yellow').css({
+			'z-index' : '1',
+		});
+		$('.card-green').css({
+			'z-index' : '2',
+		});
+		$('.navbar').css({
+			'z-index' : '2',
+		});
+	});
+
+	$('#filter-udara').click(() => {
+		$('.dark-cover').remove();
+		$('body').append(`
+			<div class="dark-cover"></div>
+			`);
+		$('.dark-cover').css({
+			height : $('body').height(),
+			'z-index' : '1',
+		});
+		$('.card-blue,.card-red,.card-green').css({
+			'z-index' : '1',
+		});
+		$('.card-yellow').css({
+			'z-index' : '2',
+		});
+		$('.navbar').css({
+			'z-index' : '2',
+		});
+	});
+
+	$('#filter-cair').click(() => {
+		$('.dark-cover').remove();
+		$('body').append(`
+			<div class="dark-cover"></div>
+			`);
+		$('.dark-cover').css({
+			height : $('body').height(),
+			'z-index' : '1',
+		});
+		$('.card-green,.card-red,.card-yellow').css({
+			'z-index' : '1',
+		});
+		$('.card-blue').css({
+			'z-index' : '2',
+		});
+		$('.navbar').css({
+			'z-index' : '2',
+		});
+	});
+
+	$('#filter-sintetis').click(() => {
+		$('.dark-cover').remove();
+		$('body').append(`
+			<div class="dark-cover"></div>
+			`);
+		$('.dark-cover').css({
+			height : $('body').height(),
+			'z-index' : '1',
+		});
+		$('.card-blue,.card-green,.card-yellow').css({
+			'z-index' : '1',
+		});
+		$('.card-red').css({
+			'z-index' : '2',
+		});
+		$('.navbar').css({
+			'z-index' : '2',
+		});
+	});
+
+	$('#filter-reset').click(() => {
+		$('.dark-cover').remove();
+		$('.card-blue,.card-green,.card-yellow,.card-red,.navbar').css({
+			'z-index' : '1',
+		});
+	});
+
+	$('.detail-wrapper').hide();
+
+	$('.detail-exit').click(function (argument) {
+		$('.detail-wrapper').animate({
+			'marginTop' : '105vh',
+		}, 'slow', () => {
+			$('.detail-wrapper').hide();
+		});
+	});
+
+	function roll_question(question_obj) {
+		console.log(question_obj);
+		if (quiz_no > 0) {
+			$('.quiz-challenge-wrapper[data-no='+(quiz_no-1)+']').fadeOut('fast', () => {
+				$('.quiz-challenge-wrapper[data-no='+(quiz_no-1)+']').remove();
+			});
+		}
+		$('body').append(`
+			<div class="quiz-challenge-wrapper" data-no=${quiz_no} style="display:none">
+				${quiz_questions[quiz_no].caption}<sup>?</sup>
+			</div>
+			`);
+		$('.quiz-challenge-wrapper').fadeIn('fast')
+	}
+</script>
+</html>
