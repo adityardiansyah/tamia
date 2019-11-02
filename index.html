@@ -1295,7 +1295,7 @@
 					</p>
 					<div class="detail-content-table">
 						<table class="table table-striped">
-							<tbody>
+							<tbody class="detail-body-table">
 								<tr>
 									<td>Nomor Atom</td>
 									<td>: 12</td>
@@ -1398,7 +1398,10 @@
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/confetti.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/scrollreveal.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
+<script src="js/data.json" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8" defer>
+	let cell_data = detail_cell_data;
+	console.log(cell_data);
 	$(window).load(function() {
 		ScrollReveal().reveal('.card-red', {
 			interval : 50,
@@ -1497,6 +1500,30 @@
 				}
 			}
 		}else{
+			let detail_data = cell_data[($(this).find('.txt').text().toLowerCase())];
+			$('.detail-content-wrapper h2').html(`${detail_data.title}<span class="discovery-wrapper"><img src="img/${detail_data.found}" class="discovery-state"></span>`);
+			$('.detail-cell-title h1').text(detail_data.abv);
+			$('.detail-cell-subtitle').text(detail_data.title);
+			$('.detail-content-wrapper p').text(detail_data.caption);
+			let table_content = '';
+			for (i in detail_data.table) {
+				for (a in detail_data.table[i]) {
+					table_content += `<tr>
+									<td>${a}</td>
+									<td>: ${detail_data.table[i][a]}</td>
+								</tr>`;
+				}
+			}
+			let carousel_items = '';
+			for (i in detail_data.img) {
+				for (a in detail_data.img[i]) {
+					carousel_items += `<div class="carousel-item ${i == 0 ? 'active' : ''}" data-caption="${a}">
+					      <img src="img/${detail_data.img[i][a]}">
+					    </div>`;
+				}
+			}
+			$('.carousel-inner').html(carousel_items);
+			$('.detail-body-table').html(table_content);
 			$('.detail-wrapper').show()
 			.animate({
 				'marginTop' : '3vh',

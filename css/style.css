@@ -172,6 +172,15 @@
 	text-align: center;
 }
 
+.discovery-wrapper{
+	margin-top: -0.5em;
+    position: absolute;
+}
+
+.discovery-state{
+	width: 20%;
+}
+
 .detail-content-wrapper{
 	padding: 5em 10em 5em 9em;
 	color: white;
@@ -182,6 +191,15 @@
 	margin-left: 1em;
 	margin-top: 2em;
 	margin-bottom: 1em;
+}
+
+.detail-content-wrapper p{
+	direction: ltr;
+}
+
+.detail-content-wrapper h2{
+
+	direction: ltr;
 }
 
 .detail-menu-item{
