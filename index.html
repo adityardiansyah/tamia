@@ -1393,7 +1393,35 @@
 	</div>
 
 	<div class="about-us">
-
+		<div class="row">
+			<div class="col-18">
+				<div class="about-us-wrapper">
+					<div class="about-us-img">
+						<img src="img/agus.png" alt="" data-name="Amirrudin Hamzah" data-pos="Animator">
+						<img src="img/soemitro.png" alt="" data-name="M. Fedy Rifki" data-pos="Designer">
+						<img src="img/sutan.png" alt="" data-name="Aditya Ardiansyah" data-pos="Engineer">
+						<div class="about-us-team">
+							TEAM
+						</div>
+					</div>
+					<br>
+					<div class="about-us-caption">
+						<div class="about-us-name">
+							M. Fedy Rifki
+						</div>
+						<div class="about-us-motto">
+							Designer
+						</div>
+					</div>
+					<br><br>
+					<div class="about-us-close">
+						<div class="about-exit">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M18.36 19.78L12 13.41l-6.36 6.37l-1.42-1.42L10.59 12L4.22 5.64l1.42-1.42L12 10.59l6.36-6.36l1.41 1.41L13.41 12l6.36 6.36z" fill="white"/></svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer>
 		&copy; Koepepet Reborn
@@ -1405,6 +1433,7 @@
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/confetti.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/scrollreveal.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/data.json" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8" defer>
 	let cell_data = detail_cell_data;
@@ -1503,14 +1532,171 @@
 		}
 	});
 
+	$('.about-us-img img:nth-child(1)').hover(() => {
+		$('.about-us-name').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			console.log(name);
+			$('.about-us-name').text('Amirrudin Hamzah');
+			$('.about-us-name').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-motto').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-motto').text('Animator');
+			$('.about-us-motto').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-img img:nth-child(2), .about-us-img img:nth-child(3)').css({
+			'width' : '8em'
+		});
+		$('.about-us-img img:nth-child(1)').css({
+			'width' : '12em'
+		});
+	}, () => {
+		$('.about-us-name').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-name').text('M. Fedy Rifki');
+			$('.about-us-name').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-motto').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-motto').text('Designer');
+			$('.about-us-motto').animate({
+				'opacity' : '1',
+			});
+		});
+
+		$('.about-us-img img:nth-child(1), .about-us-img img:nth-child(3)').css({
+			'width' : '8em'
+		});
+		$('.about-us-img img:nth-child(2)').css({
+			'width' : '12em'
+		});
+	});
+
+	$('.about-us-img img:nth-child(3)').hover(() => {
+		let name = $(this).data('name'),
+			pos = $(this).data('pos');
+			$('.about-us-name').animate({
+				'opacity' : '0'
+			}, 'fast', () => {
+				$('.about-us-name').text('Aditya Ardiansyah');
+				$('.about-us-name').animate({
+					'opacity' : '1',
+				});
+			});
+			$('.about-us-motto').animate({
+				'opacity' : '0'
+			}, 'fast', () => {
+				$('.about-us-motto').text('Engineer');
+				$('.about-us-motto').animate({
+					'opacity' : '1',
+				});
+			});
+		$('.about-us-img img:nth-child(1), .about-us-img img:nth-child(2)').css({
+			'width' : '8em'
+		});
+		$('.about-us-img img:nth-child(3)').css({
+			'width' : '12em'
+		});
+	}, () => {
+		$('.about-us-name').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-name').text('M. Fedy Rifki');
+			$('.about-us-name').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-motto').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-motto').text('Designer');
+			$('.about-us-motto').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-img img:nth-child(1), .about-us-img img:nth-child(3)').css({
+			'width' : '8em'
+		});
+		$('.about-us-img img:nth-child(2)').css({
+			'width' : '12em'
+		});
+	});
+
+	$('.about-us-img img:nth-child(2)').hover(() => {
+			$('.about-us-name').animate({
+				'opacity' : '0'
+			}, 'fast', () => {
+				$('.about-us-name').text('M. Fedy Rifki');
+				$('.about-us-name').animate({
+					'opacity' : '1',
+				});
+			});
+			$('.about-us-motto').animate({
+				'opacity' : '0'
+			}, 'fast', () => {
+				$('.about-us-motto').text('Designer');
+				$('.about-us-motto').animate({
+					'opacity' : '1',
+				});
+			});
+	}, () => {
+		$('.about-us-name').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-name').text('M. Fedy Rifki');
+			$('.about-us-name').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-motto').animate({
+			'opacity' : '0'
+		}, 'fast', () => {
+			$('.about-us-motto').text('Designer');
+			$('.about-us-motto').animate({
+				'opacity' : '1',
+			});
+		});
+		$('.about-us-img img:nth-child(1), .about-us-img img:nth-child(3)').css({
+			'width' : '8em'
+		});
+		$('.about-us-img img:nth-child(2)').css({
+			'width' : '12em'
+		});
+	});
+
 	$('#about-us').click(() => {
 		$('.navbar-nav .nav-item:first-child').css('border-bottom', 'none');
-		$('.navbar-nav .nav-item:nth-child(2)').css('border-bottom', '1px solid white');
+		// $('.navbar-nav .nav-item:nth-child(2)').css('border-bottom', '1px solid white');
 		$('.about-us').show()
 		.animate({
 			'marginTop' : '-1vh',
-		}, 'slow', 'easeOutExpo').css({
+		}, 'slow', 'easeOutExpo', () => {
+			$('.about-us-img img:nth-child(2)').css({
+				'width' : '12em'
+			});
+		}).css({
 			'position' : 'fixed'
+		});
+	});
+
+	$('.about-us').hide();
+
+	$('.about-exit').click(function (argument) {
+		$('body').css({'overflow-y' : 'scroll'});
+		$('.about-us').animate({
+			'marginTop' : '-105vh',
+		}, 'slow', 'easeInExpo', () => {
+			$('.about-us').hide();
 		});
 	});
 
