@@ -1,0 +1,62 @@
+{
+	"H" : {
+		"title" : "Hidrogen",
+		"img" : [
+			{"Bintang Kejora" : "1/Artboard 1.png"},
+			{"Matahari" : "1/Artboard 2.png"},
+			{"Roket" : "1/Artboard 3.png"}
+		],
+		"abv" : "H",
+		"caption" : "Magnesium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Mg dan nomor atom 12. Ia berupa padatan abu-abu mengkilap yang memiliki kemiripan fisik dengan lima unsur lainnya pada kolom kedua (golongan 2, atau logam alkali tanah) tabel periodik: semua unsur golongan 2 memiliki konfigurasi elektron yang sama pada kelopak elektron terluar dan struktur kristal yang serupa.",
+		"table" : [
+			{"Nomor Atom" : "1"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 1"},
+			{"Bobot standar atom" : "1.008"},
+			{'Konfigurasi elektron' : "1s"},
+			{"Titik lebur" : "13.99K"},
+			{"Titik didih" : "20.271K"}
+		],
+		found : "united-kingdom.png"
+	},
+	"He" : {
+		"title" : "Helium",
+		"img" : [
+			{"Bintang Kejora" : "2/Artboard 1.png"},
+			{"Bintang Kejepit" : "2/Artboard 2.png"},
+			{"Bintang Galau" : "2/Artboard 3.png"}
+		],
+		"abv" : "He",
+		"caption" : "Helium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang He dan nomor atom 2. Helium tak berwarna, tak berbau, tak berasa, tak beracun, hampir inert, berupa gas monatomik, dan merupakan unsur pertama pada golongan gas mulia dalam tabel periodik. Titik didih dan titik lebur gas ini merupakan yang terendah di antara semua unsur. Helium berwujud hanya sebagai gas terkecuali pada kondisi yang sangat ekstrem. Kondisi ekstrem juga diperlukan untuk menciptakan sedikit senyawa helium, yang semuanya tidak stabil pada suhu dan tekanan standar.",
+		"table" : [
+			{"Nomor Atom" : "12"},
+			{"Golongan" : "golongan 2"},
+			{"Periode" : "periode 3"},
+			{"Bobot standar atom" : "24.3050"},
+			{'Konfigurasi elektron' : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		found : "united-kingdom.png"
+	},
+	"Li" : {
+		"title" : "Litium",
+		"img" : [
+			{"Bintang Kejora" : "3/Artboard 1.png"},
+			{"Bintang Kejepit" : "3/Artboard 2.png"},
+			{"Bintang Galau" : "3/Artboard 3.png"}
+		],
+		"abv" : "Li",
+		"caption" : "Litium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Li dan nomor atom 3. Istilah tersebut berasal dari bahasa Yunani: λίθος lithos, yang berarti \"batu\". Ini adalah logam alkali lunak berwarna putih keperakan. Di bawah kondisi standar, ini adalah logam paling ringan sekaligus unsur padat yang paling ringan. Seperti semua logam alkali, litium sangat reaktif dan mudah terbakar, serta disimpan dalam minyak mineral. Ketika dipotong sehingga bagian dalamnya terbuka, ia menunjukkan kilau logam, tetapi udara lembab menodainya dengan cepat menjadi kusam abu-abu keperakan, lalu membentuk noda hitam.",
+		"table" : [
+			{"Nomor Atom" : "12"},
+			{"Golongan" : "golongan 2"},
+			{"Periode" : "periode 3"},
+			{"Bobot standar atom" : "24.3050"},
+			{'Konfigurasi elektron' : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		found : "united-kingdom.png"
+	}
+};
