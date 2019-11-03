@@ -11,10 +11,47 @@
 
 .navbar{
 	background-color: rgba(0,0,0,0);
+	padding : 1em 3em 1em 3em;
 }
 
 .navbar img{
-	width: 2em;
+	width: 2.2em;
+}
+
+.nav-item{
+	margin: 0em 1em 0em 1em;
+	z-index: 2;
+}
+
+
+.navbar-nav{
+	position: relative;
+}
+
+.nav-dummy{
+	position: absolute;
+	border-bottom: 1px solid white;
+	color: rgba(0,0,0,0);
+	width: 0em;
+	z-index: 1;
+	transition: .1s;
+}
+
+/* ABOUT US CSS */
+.about-us{
+	border-radius: 0.5em;
+	/*margin: 3vh 3vh 0 3vh;*/
+	margin: -110vh 3vh 0 3vh;
+	background: linear-gradient(129deg, rgba(178,1,153,1) 0%, rgba(73,0,161,1) 100%);
+	/*padding-bottom: 10vh;*/
+	height: 97vh;
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	/*height: 100%;*/
+	/*transition: .5s;*/
+	width: 97%;
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
 }
 
 
@@ -141,11 +178,16 @@
 }
 
 .detail-usage-caption{
-	text-align: right;
+/*	text-align: right;*/
 	font-size: 2em;
 	padding-bottom: 0.1em;
 	border-bottom: 2px solid white;
 	width: 50%;
+	position: relative;
+}
+
+.detail-usage-caption span{
+	/*position: absolute;*/
 }
 
 .carousel-control-prev{
@@ -172,13 +214,17 @@
 	text-align: center;
 }
 
+.carousel-item img{
+	width: 70%;
+}
+
 .discovery-wrapper{
 	margin-top: -0.5em;
     position: absolute;
 }
 
 .discovery-state{
-	width: 20%;
+	width: 1em;
 }
 
 .detail-content-wrapper{
@@ -191,6 +237,7 @@
 	margin-left: 1em;
 	margin-top: 2em;
 	margin-bottom: 1em;
+	position: relative;
 }
 
 .detail-content-wrapper p{
@@ -218,7 +265,7 @@
 }
 
 body::-webkit-scrollbar {
-    width: 5px;
+    width: 1px;
 }
 
 body::-webkit-scrollbar-track {
@@ -317,6 +364,7 @@ footer{
 	color: white;
 	background-color: #474747;
 	width: 100vw;
+	z-index: 5;
 }
 
 
@@ -336,6 +384,11 @@ footer{
     padding: 1em;
     font-size: 2em;
     left: 40%;
+}
+.quiz-done{
+	font-size: 0.5em;
+	border-bottom: 1px solid white;
+	cursor: pointer;
 }
 .card-red{
 	background-color: #DF6362;
@@ -416,10 +469,13 @@ footer{
 }
 .filter-group{
 	background-color: rgba(255,255,255,0.2);
+	border-radius: 0.3em;
+	border: 1px solid white;
 }
 .filter-group .btn{
 	font-size: 0.8em;
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0.2em 2em 0.2em 2em;
+    border:none;
 }
 a{
 	color: #000;
@@ -459,11 +515,11 @@ a{
 	background-color: transparent;
 }
 .filter-group .btn-secondary:hover{
-	border: 1px solid rgba(255,255,255,0.5);
+	/*border: 1px solid rgba(255,255,255,0.5);*/
 	background-color: rgba(255,255,255,0.5) !important;
 }
 .filter-group .btn-secondary.active{
 	border-color: rgba(0,0,0,0) !important;
-	border: 1px solid rgba(255,255,255,0.5);
+	/*border: 1px solid rgba(255,255,255,0.5);*/
 	background-color: rgba(255,255,255,0.5) !important;
 }

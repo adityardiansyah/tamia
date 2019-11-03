@@ -37,7 +37,10 @@
 	        <a class="nav-link" id="quiz" href="#">Quiz</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">About Us</a>
+	        <a class="nav-link" id="about-us" href="#">About Us</a>
+	      </li>
+	      <li class="nav-item nav-dummy">
+	        <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	      </li>
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
@@ -1284,7 +1287,7 @@
 					  </a>
 					</div>
 					<div class="detail-usage-caption">
-						Bintang Kejora Duarr
+						<span>Bintang Kejora Duarr</span>
 					</div>
 				</div>
 				<div class="detail-content-wrapper">
@@ -1388,6 +1391,10 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="about-us">
+
+	</div>
 	<footer>
 		&copy; Koepepet Reborn
 	</footer>
@@ -1468,7 +1475,25 @@
 	];
 	let quiz_no = 0;
 
+	$('.navbar-nav .nav-item:first-child').hover(() => {
+		$('.nav-dummy').css({'margin-left': '1em', 'width' : '3em'})
+	}, () => {
+		$('.nav-dummy').css({ 'width' : '0em'})
+	});
+
+	$('.navbar-nav .nav-item:nth-child(2)').hover(() => {
+		$('.nav-dummy').css({
+			'margin-left' : '6em',
+			'width' : '6em'
+		})
+	}, () => {
+		$('.nav-dummy').css({ 'width' : '0em'})
+	});
+
 	$('#quiz').click(function (argument) {
+		$('#filter-reset').click();
+		$('.navbar-nav .nav-item:nth-child(2)').css('border-bottom', 'none');
+		$('.navbar-nav .nav-item:first-child').css('border-bottom', '1px solid white');
 		if (quiz == false) {
 			quiz = true;
 			$('.txt').fadeTo(500, 0, () => { $('.txt').css('opacity', '0') });
@@ -1476,6 +1501,17 @@
 			$('.txt-caption-small').fadeTo(500, 0, () => { $('.txt-caption-small').css('opacity', '0') });
 			roll_question(quiz_questions[quiz_no]);
 		}
+	});
+
+	$('#about-us').click(() => {
+		$('.navbar-nav .nav-item:first-child').css('border-bottom', 'none');
+		$('.navbar-nav .nav-item:nth-child(2)').css('border-bottom', '1px solid white');
+		$('.about-us').show()
+		.animate({
+			'marginTop' : '-1vh',
+		}, 'slow', 'easeOutExpo').css({
+			'position' : 'fixed'
+		});
 	});
 
 	$('.frame-small').click(function (argument) {
@@ -1500,7 +1536,8 @@
 				}
 			}
 		}else{
-			let detail_data = cell_data[($(this).find('.txt').text().toLowerCase())];
+			let detail_data = cell_data[($(this).find('.txt').text())];
+			$('body').css({'overflow-y' : 'hidden'});
 			$('.detail-content-wrapper h2').html(`${detail_data.title}<span class="discovery-wrapper"><img src="img/${detail_data.found}" class="discovery-state"></span>`);
 			$('.detail-cell-title h1').text(detail_data.abv);
 			$('.detail-cell-subtitle').text(detail_data.title);
@@ -1517,6 +1554,9 @@
 			let carousel_items = '';
 			for (i in detail_data.img) {
 				for (a in detail_data.img[i]) {
+					if (i == 0) {
+						$('.detail-usage-caption span').text(a);
+					}
 					carousel_items += `<div class="carousel-item ${i == 0 ? 'active' : ''}" data-caption="${a}">
 					      <img src="img/${detail_data.img[i][a]}">
 					    </div>`;
@@ -1534,6 +1574,9 @@
 	});
 
 	$('#filter-padat').click(() => {
+		$('#filter-reset').html(`
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15l-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152l2.758 3.15a1.2 1.2 0 0 1 0 1.698z" fill="white"/></svg>
+		`);
 		$('.filter-group .btn').removeClass('active');
 		$('#filter-padat').addClass('active');
 		$('.dark-cover').remove();
@@ -1557,6 +1600,9 @@
 	});
 
 	$('#filter-udara').click(() => {
+		$('#filter-reset').html(`
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15l-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152l2.758 3.15a1.2 1.2 0 0 1 0 1.698z" fill="white"/></svg>
+		`);
 		$('.filter-group .btn').removeClass('active');
 		$('#filter-udara').addClass('active');
 		$('.dark-cover').remove();
@@ -1580,6 +1626,9 @@
 	});
 
 	$('#filter-cair').click(() => {
+		$('#filter-reset').html(`
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15l-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152l2.758 3.15a1.2 1.2 0 0 1 0 1.698z" fill="white"/></svg>
+		`);
 		$('.filter-group .btn').removeClass('active');
 		$('#filter-cair').addClass('active');
 		$('.dark-cover').remove();
@@ -1603,6 +1652,9 @@
 	});
 
 	$('#filter-sintetis').click(() => {
+		$('#filter-reset').html(`
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15l-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152l2.758 3.15a1.2 1.2 0 0 1 0 1.698z" fill="white"/></svg>
+		`);
 		$('.filter-group .btn').removeClass('active');
 		$('#filter-sintetis').addClass('active');
 		$('.dark-cover').remove();
@@ -1626,6 +1678,9 @@
 	});
 
 	$('#filter-reset').click(() => {
+		$('#filter-reset').html(`
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></g></svg>
+		`);
 		$('.filter-group .btn').removeClass('active');
 		$('.dark-cover').css({ 'opacity' : '0', });
 		setTimeout(() => {$('.dark-cover').remove()}, 500);
@@ -1637,6 +1692,7 @@
 	$('.detail-wrapper').hide();
 
 	$('.detail-exit').click(function (argument) {
+		$('body').css({'overflow-y' : 'scroll'});
 		$('.detail-wrapper').animate({
 			'marginTop' : '105vh',
 		}, 'slow', 'easeInExpo', () => {
@@ -1668,7 +1724,20 @@
 	});
 
 	$('#carouselExampleControls').on('slid.bs.carousel', () => {
-		$('.detail-usage-caption').text($('.carousel-item.active').data('caption'));
+		$('.detail-usage-caption span').animate(
+			{
+				'opacity' : '0'
+			},
+			'fast', () => {
+				$('.detail-usage-caption span').text($('.carousel-item.active').data('caption'));
+				$('.detail-usage-caption span').animate(
+					{
+						'opacity' : '1'
+					},
+					'fast'
+				);
+			}
+		);
 	});
 
 	function roll_question(question_obj) {
@@ -1687,35 +1756,12 @@
 	}
 
 	function quiz_finish() {
-		$(document, '.quiz-done').click(function (argument) {
-			$('.quiz-challenge-wrapper').fadeOut('slow', function (argument) {
-				$('.quiz-challenge-wrapper').remove();
-				$('.txt').fadeTo(500, 1, () => {
-					$('.txt').css({
-						'opacity' : '1',
-					});
-				});
-				$('.txt-caption').fadeTo(500, 1, () => {
-					$('.txt-caption').css({
-						'opacity' : '1',
-					});
-				});
-				$('.txt-caption-small').fadeTo(500, 1, () => {
-					$('.txt-caption-small').css({
-						'opacity' : '1',
-					});
-				});
-			});
-			$('.dark-cover-quiz').fadeOut('slow', () => {
-				$('.dark-cover-quiz').remove();
-			});
-		});
-
 		$('.quiz-challenge-wrapper').fadeOut('fast', () => {
 			$('.quiz-challenge-wrapper').remove();
 			$('body').append(`
 				<div class="quiz-challenge-wrapper" style="display:none; z-index: 1">
 					${quiz_right}/${quiz_ses}
+					<div class="quiz-done" onClick="end_quiz()">Finish</div>
 				</div>
 				<div class="dark-cover-quiz"></div>
 			`);
@@ -1743,9 +1789,31 @@
 				$('.dark-cover-quiz').css('opacity', '1');
 				quiz = false; quiz_no = 0; quiz_ses = 0; quiz_right = 0;
 			});
-			// $('.dark-cover-quiz').fadeIn('slow', () => {
+		});
+	}
 
-			// });
+	function end_quiz() {
+		$('.quiz-challenge-wrapper').fadeOut('slow', function (argument) {
+			console.log('faded');
+			$('.quiz-challenge-wrapper').remove();
+			$('.txt').fadeTo(500, 1, () => {
+				$('.txt').css({
+					'opacity' : '1',
+				});
+			});
+			$('.txt-caption').fadeTo(500, 1, () => {
+				$('.txt-caption').css({
+					'opacity' : '1',
+				});
+			});
+			$('.txt-caption-small').fadeTo(500, 1, () => {
+				$('.txt-caption-small').css({
+					'opacity' : '1',
+				});
+			});
+		});
+		$('.dark-cover-quiz').fadeOut('slow', () => {
+			$('.dark-cover-quiz').remove();
 		});
 	}
 </script>
