@@ -13,50 +13,2094 @@
 			{"Golongan" : "golongan 1"},
 			{"Periode" : "periode 1"},
 			{"Bobot standar atom" : "1.008"},
-			{'Konfigurasi elektron' : "1s"},
+			{"Konfigurasi elektron" : "1s"},
 			{"Titik lebur" : "13.99K"},
 			{"Titik didih" : "20.271K"}
 		],
-		found : "united-kingdom.png"
+		"found" : "united-kingdom.png"
 	},
 	"He" : {
 		"title" : "Helium",
 		"img" : [
-			{"Bintang Kejora" : "2/Artboard 1.png"},
-			{"Bintang Kejepit" : "2/Artboard 2.png"},
-			{"Bintang Galau" : "2/Artboard 3.png"}
+			{"Balon" : "2/Artboard 1.png"},
+			{"Balon Udara" : "2/Artboard 2.png"}
 		],
 		"abv" : "He",
 		"caption" : "Helium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang He dan nomor atom 2. Helium tak berwarna, tak berbau, tak berasa, tak beracun, hampir inert, berupa gas monatomik, dan merupakan unsur pertama pada golongan gas mulia dalam tabel periodik. Titik didih dan titik lebur gas ini merupakan yang terendah di antara semua unsur. Helium berwujud hanya sebagai gas terkecuali pada kondisi yang sangat ekstrem. Kondisi ekstrem juga diperlukan untuk menciptakan sedikit senyawa helium, yang semuanya tidak stabil pada suhu dan tekanan standar.",
 		"table" : [
-			{"Nomor Atom" : "12"},
-			{"Golongan" : "golongan 2"},
-			{"Periode" : "periode 3"},
-			{"Bobot standar atom" : "24.3050"},
-			{'Konfigurasi elektron' : "2,8,2"},
-			{"Titik lebur" : "923K"},
-			{"Titik didih" : "1363K"}
+			{"Nomor Atom" : "2"},
+			{"Golongan" : "golongan 18"},
+			{"Periode" : "periode 1"},
+			{"Bobot standar atom" : "4.002602"},
+			{"Konfigurasi elektron" : "1s"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
 		],
-		found : "united-kingdom.png"
+		"found" : "france.png"
 	},
 	"Li" : {
 		"title" : "Litium",
 		"img" : [
-			{"Bintang Kejora" : "3/Artboard 1.png"},
-			{"Bintang Kejepit" : "3/Artboard 2.png"},
-			{"Bintang Galau" : "3/Artboard 3.png"}
+			{"Baterai" : "3/Artboard 1.png"},
+			{"Vas dan Mangkok" : "3/Artboard 2.png"}
 		],
 		"abv" : "Li",
 		"caption" : "Litium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Li dan nomor atom 3. Istilah tersebut berasal dari bahasa Yunani: λίθος lithos, yang berarti \"batu\". Ini adalah logam alkali lunak berwarna putih keperakan. Di bawah kondisi standar, ini adalah logam paling ringan sekaligus unsur padat yang paling ringan. Seperti semua logam alkali, litium sangat reaktif dan mudah terbakar, serta disimpan dalam minyak mineral. Ketika dipotong sehingga bagian dalamnya terbuka, ia menunjukkan kilau logam, tetapi udara lembab menodainya dengan cepat menjadi kusam abu-abu keperakan, lalu membentuk noda hitam.",
 		"table" : [
 			{"Nomor Atom" : "12"},
-			{"Golongan" : "golongan 2"},
-			{"Periode" : "periode 3"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
 			{"Bobot standar atom" : "24.3050"},
-			{'Konfigurasi elektron' : "2,8,2"},
+			{"Konfigurasi elektron" : "2,8,2"},
 			{"Titik lebur" : "923K"},
 			{"Titik didih" : "1363K"}
 		],
-		found : "united-kingdom.png"
+		"found" : "united-kingdom.png"
+	},
+	"Be" : {
+		"title" : "Berilium",
+		"img" : [
+			{"Satelit" : "4/Artboard 1.png"},
+			{"Kabel" : "4/Artboard 2.png"}
+		],
+		"abv" : "Be",
+		"caption" : "Berilium adalah unsur kimia yang mempunyai simbol Be dan nomor atom 4. Unsur ini beracun, bervalensi 2, berwarna abu-abu baja, kukuh, ringan tetapi mudah pecah. Berilium adalah logam alkali tanah, yang kegunaan utamanya adalah sebagai bahan penguat dalam aloy (khususnya, tembaga berilium).",
+		"table" : [
+			{"Nomor Atom" : "4"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"B" : {
+		"title" : "Boron",
+		"img" : [
+			{"Kapsul" : "5/Artboard 1.png"},
+			{"Tulang Lutut Keropos" : "5/Artboard 2.png"}
+		],
+		"abv" : "B",
+		"caption" : "Boron adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang B dan nomor atom 5. Elemen metaloid trivalen, boron banyak terdapat di batu borax. Ada dua alotrop boron; boron amorfus adalah serbuk coklat, tetapi boron metalik berwarna hitam. Bentuk metaliknya keras (9,3 dalam skala Mohs) dan konduktor yang buruk dalam suhu ruang. Tidak pernah ditemukan bebas dalam alam. Borom sempat dinamakan Boracium.",
+		"table" : [
+			{"Nomor Atom" : "5"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "france.png"
+	},
+	"C" : {
+		"title" : "Karbon",
+		"img" : [
+			{"Pensil" : "6/Artboard 1.png"},
+			{"Benda Plastik" : "6/Artboard 2.png"}
+		],
+		"abv" : "C",
+		"caption" : "Karbon atau zat arang merupakan unsur kimia yang mempunyai simbol C dan nomor atom 6 pada tabel periodik. Sebagai unsur golongan 14 pada tabel periodik, karbon merupakan unsur non-logam dan bervalensi 4 (tetravalen), yang berarti bahwa terdapat empat elektron yang dapat digunakan untuk membentuk ikatan kovalen. Terdapat tiga macam isotop karbon yang ditemukan secara alami, yakni 12C dan 13C yang stabil, dan 14C yang bersifat radioaktif dengan waktu paruh peluruhannya sekitar 5730 tahun.",
+		"table" : [
+			{"Nomor Atom" : "6"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "russia.png"
+	},
+	"N" : {
+		"title" : "Nitrogen",
+		"img" : [
+			{"Ban Kendaraan" : "7/Artboard 1.png"},
+			{"Tumbuhan" : "7/Artboard 2.png"}
+		],
+		"abv" : "N",
+		"caption" : "Nitrogen adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang N dan nomor atom 7. unsur ini pertama kali ditemukan dan diisolasi oleh dokter berkebangsaan Skotlandia Daniel Rutherford pada tahun 1772. Meskipun Carl Wilhelm Scheele dan Henry Cavendish secara terpisah telah melakukan hal yang sama di kisaran waktu yang sama pula, Rutherford secara umum sesuai untuk menerima penghargaan tersebut karena karyanya dipublikasikan pertama kali",
+		"table" : [
+			{"Nomor Atom" : "7"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "italy.png"
+	},
+	"O" : {
+		"title" : "Oksigen",
+		"img" : [
+			{"Hidung" : "8/Artboard 1.png"},
+			{"Tabung Oksigen" : "8/Artboard 2.png"}
+		],
+		"abv" : "C",
+		"caption" : "Oksigen atau zat asam adalah unsur kimia yang mempunyai lambang O dan nomor atom 8. Dalam tabel periodik, oksigen merupakan unsur nonlogam golongan VIA (kalkogen) dan dapat dengan mudah bereaksi dengan hampir semua unsur lainnya (utamanya menjadi oksida). Pada temperatur dan tekanan standar, dua atom oksigen berikatan menjadi O2 (dioksigen), gas yang tidak berwarna, tidak berasa, dan tidak berbau.",
+		"table" : [
+			{"Nomor Atom" : "8"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"F" : {
+		"title" : "Fluor",
+		"img" : [
+			{"Pasta Gigi" : "9/Artboard 1.png"},
+			{"Perlindungan Gigi" : "9/Artboard 2.png"}
+		],
+		"abv" : "F",
+		"caption" : "Fluor adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang F dan nomor atom 9. Namanya berasal dari bahasa Latin fluere, berarti \"mengalir\". Dia merupakan gas halogen univalen beracun berwarna kuning-hijau yang paling reaktif secara kimia dan elektronegatif dari seluruh unsur. Dalam bentuk murninya, dia sangat berbahaya, dapat menyebabkan pembakaran kimia parah begitu berhubungan dengan kulit.",
+		"table" : [
+			{"Nomor Atom" : "9"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "switzerland.png"
+	},
+	"Ne" : {
+		"title" : "Neon",
+		"img" : [
+			{"Televisi" : "10/Artboard 1.png"},
+			{"Listrik" : "10/Artboard 2.png"}
+		],
+		"abv" : "Ne",
+		"caption" : "Neon adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ne dan nomor atom 10. Neon termasuk kelompok gas mulia yang tak berwarna dan lembam (inert). Zat ini memberikan pendar khas kemerahan jika digunakan di tabung hampa (vacuum discharge tube) dan lampu neon. Sifat ini membuat neon terutama dipergunakan sebagai bahan pembuatan tanda (sign).",
+		"table" : [
+			{"Nomor Atom" : "10"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"Na" : {
+		"title" : "Natrium",
+		"img" : [
+			{"Garam Natrium" : "11/Artboard 1.png"},
+			{"Serbuk Bingkai Kaca" : "11/Artboard 2.png"}
+		],
+		"abv" : "Na",
+		"caption" : "Natrium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Na dan nomor atom 11. Ini adalah logam lunak, putih keperakan, dan sangat reaktif. Natrium adalah logam alkali, berada pada golongan 1 tabel periodik, karena memiliki satu elektron di kulit terluarnya yang mudah disumbangkannya, menciptakan atom bermuatan positif—kation Na+. Satu-satunya isotop stabil adalah 23Na. Logam bebasnya tidak terdapat di alam, tapi harus dibuat dari senyawanya.",
+		"table" : [
+			{"Nomor Atom" : "11"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Mg" : {
+	"title" : "Magnesium",
+	"img" : [
+		{"Tulang" : "12/Artboard 1.png"},
+		{"Apukat" : "12/Artboard 2.png"}
+	],
+	"abv" : "Mg",
+	"caption" : "Magnesium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Mg dan nomor atom 12. Ia berupa padatan abu-abu mengkilap yang memiliki kemiripan fisik dengan lima unsur lainnya pada kolom kedua (golongan 2, atau logam alkali tanah) tabel periodik: semua unsur golongan 2 memiliki konfigurasi elektron yang sama pada kelopak elektron terluar dan struktur kristal yang serupa.",
+	"table" : [
+		{"Nomor Atom" : "12"},
+		{"Golongan" : "golongan 1"},
+		{"Periode" : "periode 2"},
+		{"Bobot standar atom" : "24.3050"},
+		{"Konfigurasi elektron" : "2,8,2"},
+		{"Titik lebur" : "0.95K"},
+		{"Titik didih" : "4.22K"}
+	],
+	"found" : "united-states.png"
+},
+	"Ai" : {
+		"title" : "Aluminium",
+		"img" : [
+			{"Kaleng Minuman" : "13/Artboard 1.png"},
+			{"Gagang Pintu" : "13/Artboard 2.png"}
+		],
+		"abv" : "Ai",
+		"caption" : "Aluminium ialah unsur kimia. Lambang aluminium ialah Al, dan nomor atomnya 13. Aluminium ialah logam paling berlimpah. Aluminium bukan merupakan jenis logam berat, tetapi merupakan elemen yang berjumlah sekitar 8% dari permukaan bumi dan paling berlimpah ketiga. Aluminium terdapat dalam penggunaan aditif makanan, antasida, buffered aspirin, astringents, semprotan hidung, antiperspirant, air minum, knalpot mobil, asap tembakau, penggunaan aluminium foil, peralatan masak, kaleng, keramik, dan kembang api.",
+		"table" : [
+			{"Nomor Atom" : "11"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Si" : {
+		"title" : "Silicon",
+		"img" : [
+			{"Transistor" : "14/Artboard 1.png"},
+			{"Casing Karet Gadget" : "14/Artboard 2.png"}
+		],
+		"abv" : "Si",
+		"caption" : "Silikon adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Si dan nomor atom 14. Senyawa yang dibentuk bersifat paramagnetik. Unsur kimia ini ditemukan oleh Jöns Jakob Berzelius. Silikon merupakan unsur metaloid tetravalensi, bersifat lebih tidak reaktif daripada karbon (unsur nonlogam yang tepat berada di atasnya pada tabel periodik, tetapi lebih reaktif daripada germanium, metaloid yang berada persis di bawahnya pada tabel periodik.",
+		"table" : [
+			{"Nomor Atom" : "14"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"P" : {
+		"title" : "Fosfor",
+		"img" : [
+			{"Tanaman" : "15/Artboard 1.png"},
+			{"Serbuk Kembang Api" : "15/Artboard 2.png"}
+		],
+		"abv" : "P",
+		"caption" : "Fosforus adalah unsur kimia yang memiliki lambang P dengan nomor atom 15. Fosforus berupa nonlogam, bervalensi banyak, termasuk golongan nitrogen, banyak ditemui dalam batuan fosfat anorganik dan dalam semua sel hidup tetapi tidak pernah ditemui dalam bentuk unsur bebasnya. Fosforus amatlah reaktif, memancarkan pendar cahaya yang lemah ketika bergabung dengan oksigen, ditemukan dalam berbagai bentuk, dan merupakan unsur penting dalam makhluk hidup. Kegunaan fosforus yang terpenting adalah dalam pembuatan pupuk, dan secara luas digunakan dalam bahan peledak, korek api, kembang api, pestisida, odol, dan deterjen.",
+		"table" : [
+			{"Nomor Atom" : "15"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"S" : {
+		"title" : "Belerang",
+		"img" : [
+			{"Anti Bakteri" : "16/Artboard 1.png"},
+			{"Sabun" : "16/Artboard 2.png"}
+		],
+		"abv" : "S",
+		"caption" : "Belerang atau sulfur adalah unsur kimia dalam tabel periodik yang memiliki lambang S dan nomor atom 16. Belerang merupakan unsur non-logam yang tidak berasa. Belerang, dalam bentuk aslinya, adalah sebuah zat padat kristalin kuning. Di alam, belerang dapat ditemukan sebagai unsur murni atau sebagai mineral-mineral sulfida dan sulfat. Belerang adalah unsur penting untuk kehidupan dan ditemukan dalam 2 asam amino. Salah satu contoh penggunaan umum belerang adalah dalam pupuk. Selain itu, belerang juga digunakan dalam bubuk mesiu, korek api, insektisida, dan fungisida.",
+		"table" : [
+			{"Nomor Atom" : "16"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Cl" : {
+		"title" : "Klor",
+		"img" : [
+			{"Anti Bakteri" : "17/Artboard 1.png"},
+			{"Air Garam" : "17/Artboard 2.png"}
+		],
+		"abv" : "Cl",
+		"caption" : "Klorin adalah unsur kimia dengan simbol Cl dan nomor atom 17. Senyawa ini adalah halogen kedua paling ringan, berada diantara fluor dan bromin dalam tabel periodik dan sifat-sifatnya sebagian besar di antara mereka. Klorin berwujud gas berwarna kuning-hijau pada suhu kamar. Unsur ini merupakan elemen sangat reaktif dan oksidator kuat: klorin mempunyai afinitas elektron tertinggi dan elektronegativitas ketiga tertinggi di belakang oksigen dan fluor.",
+		"table" : [
+			{"Nomor Atom" : "17"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Ar" : {
+		"title" : "Argan",
+		"img" : [
+			{"Lampu" : "18/Artboard 1.png"},
+			{"Ban Kendaraan" : "18/Artboard 2.png"}
+		],
+		"abv" : "Ar",
+		"caption" : "Argon adalah unsur kimia dengan simbol Ar dan nomor atom 18. Ia berada pada golongan 18 tabel periodik dan merupakan gas mulia.[n 1] Argon adalah gas ketiga yang paling umum di atmosfer bumi, dengan kelimpahan 0,934% (9.340 ppmv), menjadikannya gas dengan kelimpahan dua kali kelimpahan uap air (rata-rata 4.000 ppmv, tetapi bervariasi) dan 23 kali kelimpahan gas atmosfer lainnya, karbon dioksida (400 ppmv), dan lebih dari 500 kali kelimpahan gas mulia berikutnya, neon (18 ppmv).",
+		"table" : [
+			{"Nomor Atom" : "18"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Ca" : {
+		"title" : "Kalsium",
+		"img" : [
+			{"Tulang" : "kalsium/Artboard 1.png"},
+			{"Semen" : "kalsium/Artboard 2.png"}
+		],
+		"abv" : "Ca",
+		"caption" : "Kalsium adalah sebuah elemen kimia dengan simbol Ca dan nomor atom 20. Mempunyai massa atom 40.078 amu. Kalsium merupakan salah satu logam alkali tanah, dan merupakan elemen terabaikan kelima terbanyak di bumi. Kalsium juga merupakan ion terabaikan kelima terbanyak di air laut dilihat dari segi molaritas dan massanya, setelah natrium, klorida, magnesium, dan sulfat.",
+		"table" : [
+			{"Nomor Atom" : "20"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Ti" : {
+		"title" : "Titanium",
+		"img" : [
+			{"Pesawat" : "titanium/Artboard 1.png"},
+			{"Kapal" : "titanium/Artboard 2.png"}
+		],
+		"abv" : "Ti",
+		"caption" : "Titanium adalah sebuah unsur kimia dalam tabel periodik yang memiliki simbol Ti dan nomor atom 22. Unsur ini merupakan logam transisi yang ringan, kuat, berkilau, tahan korosi (termasuk tahan terhadap air laut, aqua regia, dan klorin) dengan warna putih-metalik-keperakan.",
+		"table" : [
+			{"Nomor Atom" : "22"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Cr" : {
+		"title" : "Krom",
+		"img" : [
+			{"Tipe Musik" : "cromium/Artboard 1.png"},
+			{"Knalpot Lapisan Krom" : "cromium/Artboard 2.png"}
+		],
+		"abv" : "Cr",
+		"caption" : "Kromium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Cr dan nomor atom 24. Ia adalah unsur pertama dalam golongan 6. Ia adalah logam berwarna abu-abu seperti baja, berkilau, keras dan rapuh yang memerlukan pemolesan tinggi, tahan pengusaman, dan memiliki titik lebur tinggi. Nama unsur ini diturunkan dari bahasa Yunani yang berarti warna, karena banyak senyawa kromium sangat berwarna.",
+		"table" : [
+			{"Nomor Atom" : "24"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Mn" : {
+		"title" : "Mangan",
+		"img" : [
+			{"Baterai" : "mangan/Artboard 1.png"},
+			{"Keramik" : "mangan/Artboard 2.png"}
+		],
+		"abv" : "Mn",
+		"caption" : "Mangan adalah unsur kimia dalam tabel periodik yang memiliki lambang Mn dan nomor atom 25. Mangan berupa logam transisi yang berwarna perak metalik.",
+		"table" : [
+			{"Nomor Atom" : "25"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Fe" : {
+		"title" : "Besi",
+		"img" : [
+			{"Tiang Listrik" : "besi/Artboard 1.png"},
+			{"Rel Kereta" : "besi/Artboard 2.png"}
+		],
+		"abv" : "Fe",
+		"caption" : "Besi adalah unsur kimia dengan simbol Fe (dari bahasa Latin: ferrum) dan nomor atom 26. Merupakan logam dalam deret transisi pertama. Ini adalah unsur paling umum di bumi berdasarkan massa, membentuk sebagian besar bagian inti luar dan dalam bumi. Besi adalah unsur keempat terbesar pada kerak bumi. Kelimpahannya dalam planet berbatu seperti bumi karena melimpahnya produksi akibat reaksi fusi dalam bintang bermassa besar.",
+		"table" : [
+			{"Nomor Atom" : "26"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Co" : {
+		"title" : "Kobalt",
+		"img" : [
+			{"Magnet" : "kobal/Artboard 1.png"},
+			{"Pesawat" : "kobal/Artboard 2.png"}
+		],
+		"abv" : "Co",
+		"caption" : "Kobalt adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Co dan nomor atom 27. Elemen ini biasanya hanya ditemukan dalam bentuk campuran di alam. Elemen bebasnya, diproduksi dari peleburan reduktif, adalah logam berwarna abu-abu perak yang keras dan berkilau.",
+		"table" : [
+			{"Nomor Atom" : "27"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Ni" : {
+		"title" : "Nikel",
+		"img" : [
+			{"Magnet" : "nikel/Artboard 1.png"},
+			{"Baterai" : "nikel/Artboard 2.png"}
+		],
+		"abv" : "Ni",
+		"caption" : "ANikel adalah unsur kimia metalik dalam tabel periodik yang memiliki simbol Ni dan nomor atom 28. Nikel mempunyai sifat tahan karat. Dalam keadaan murni, nikel bersifat lembek, tetapi jika dipadukan dengan besi, krom, dan logam lainnya, dapat membentuk baja tahan karat yang keras. Perpaduan nikel, krom dan besi menghasilkan baja tahan karat (stainless steel) yang banyak diaplikasikan pada peralatan dapur (sendok, dan peralatan memasak), ornamen-ornamen rumah dan gedung, serta komponen industri.",
+		"table" : [
+			{"Nomor Atom" : "28"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Cu" : {
+		"title" : "Tembaga",
+		"img" : [
+			{"Kabel" : "tembaga/Artboard 1.png"},
+			{"Uang Koin" : "tembaga/Artboard 2.png"}
+		],
+		"abv" : "Cu",
+		"caption" : "Tembaga adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Cu dan nomor atom 29. Lambangnya berasal dari bahasa Latin Cuprum.Tembaga merupakan konduktor panas dan listrik yang baik. Selain itu unsur ini memiliki korosi yang cepat sekali. Tembaga murni sifatnya halus dan lunak, dengan permukaan berwarna jingga kemerahan. Tembaga dicampurkan dengan timah untuk membuat perunggu.",
+		"table" : [
+			{"Nomor Atom" : "29"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Zn" : {
+		"title" : "Seng",
+		"img" : [
+			{"Baterai" : "seng/Artboard 1.png"},
+			{"Atap Rumah" : "seng/Artboard 2.png"}
+		],
+		"abv" : "Zn",
+		"caption" : "Seng (bahasa Belanda: zink), zink, atau timah sari adalah unsur kimia dengan lambang kimia Zn, bernomor atom 30, dan massa atom relatif 65,39. Ia merupakan unsur pertama golongan 12 pada tabel periodik. Beberapa sifat kimia seng mirip dengan magnesium (Mg). Hal ini dikarenakan ion kedua unsur ini berukuran hampir sama. Selain itu, keduanya juga memiliki keadaan oksidasi +2. Seng merupakan unsur paling melimpah ke-24 di kerak bumi dan memiliki lima isotop stabil. Bijih seng yang paling banyak ditambang adalah sfalerit (seng sulfida).",
+		"table" : [
+			{"Nomor Atom" : "30"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Kr" : {
+		"title" : "Kripton",
+		"img" : [
+			{"Lampu" : "kripton/Artboard 1.png"},
+			{"Lampu Jalan Bawah" : "kripton/Artboard 2.png"}
+		],
+		"abv" : "Kr",
+		"caption" : "Kripton adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Kr dan nomor atom 36. Nama ini diambil dari kata Bahasa Yunani \"Kriptos\" yang berarti tersembunyi.",
+		"table" : [
+			{"Nomor Atom" : "38"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Sn" : {
+		"title" : "Timah",
+		"img" : [
+			{"Timah Elektronik" : "timah/Artboard 1.png"},
+			{"Pemberat Pancing" : "timah/Artboard 2.png"}
+		],
+		"abv" : "Sn",
+		"caption" : "Timah (atau timah putih) adalah sebuah unsur kimia dalam tabel periodik yang memiliki simbol Sn (bahasa Latin: stannum) dan nomor atom 50.Timah termasuk logam pasca-transisi di kelompok 14 dalam tabel periodik.Timah menunjukan kemiripan kimia dengan Germanium dan Timbal yang juga berada di kelompok 14 dan memiliki dua kemungkinan bilangan oksidasi, +2 dan +4 yang sedikit lebih stabil.",
+		"table" : [
+			{"Nomor Atom" : "50"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"I" : {
+		"title" : "Iodin",
+		"img" : [
+			{"Susu Sapi" : "yodium/Artboard 1.png"},
+			{"Garam Dapur" : "yodium/Artboard 2.png"}
+		],
+		"abv" : "I",
+		"caption" : "Iodin atau Iodium (bahasa Yunani: Iodes - ungu), adalah unsur kimia pada tabel periodik yang memiliki simbol I dan nomor atom 53. Unsur ini diperlukan oleh hampir semua mahkluk hidup. Iodin adalah halogen yang reaktivitasnya paling rendah dan paling bersifat elektropositif. Sebagai catatan, seharusnya astatin lebih rendah reaktivitasnya dan lebih elektropositif daripada iodin, tetapi kelangkaan astatin membuat sulit untuk mengkonfirmasikan hal ini.",
+		"table" : [
+			{"Nomor Atom" : "53"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Ir" : {
+		"title" : "Iridium",
+		"img" : [
+			{"Busi Kendaraan" : "iridium/Artboard 1.png"},
+			{"Kaca Helm" : "iridium/Artboard 2.png"}
+		],
+		"abv" : "Ir",
+		"caption" : "Iridium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ir dan nomor atom 77. Iridium adalah logam transisi yang sangat keras, berwarna putih keperakan dari golongan platina, iridium adalah unsur terpadat kedua (setelah osmium).",
+		"table" : [
+			{"Nomor Atom" : "77"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Pt" : {
+		"title" : "Platina",
+		"img" : [
+			{"Cincin" : "platina/Artboard 1.png"},
+			{"Gelas" : "platina/Artboard 2.png"}
+		],
+		"abv" : "Pt",
+		"caption" : "Platina adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Pt dan nomor atom 78. Logam transisi putih abu-abu ini padat, lunak, ulet, sangat tidak reaktif, dan berharga. Namanya berasal dari istilah Spanyol platina, yang jika diterjemahkan secara harfiah berarti perak kecil.",
+		"table" : [
+			{"Nomor Atom" : "78"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Au" : {
+		"title" : "Emas",
+		"img" : [
+			{"Emas Batangan" : "emas/Artboard 1.png"},
+			{"Kalung Emas" : "emas/Artboard 2.png"}
+		],
+		"abv" : "Au",
+		"caption" : "Emas adalah unsur kimia dalam tabel periodik yang memiliki simbol Au (bahasa Latin: 'aurum') dan nomor atom 79. Sebuah logam transisi (trivalen dan univalen) yang lembek, mengkilap, kuning, berat, \"malleable\", dan \"ductile\". Emas tidak bereaksi dengan zat kimia lainnya tetapi terserang oleh klorin, fluorin dan aqua regia. Logam ini banyak terdapat di nugget emas atau serbuk di bebatuan dan di deposit alluvial dan salah satu logam coinage. Kode ISOnya adalah XAU. Emas melebur dalam bentuk cair pada suhu sekitar 1000 derajat Celsius.",
+		"table" : [
+			{"Nomor Atom" : "79"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "923K"},
+			{"Titik didih" : "1363K"}
+		],
+		"found" : "spain.png"
+	},
+	"Hg" : {
+		"title" : "Raksa",
+		"img" : [
+			{"Thermometer" : "raksa/Artboard 1.png"}
+		],
+		"abv" : "Hg",
+		"caption" : "Raksa (nama lama: air raksa) atau merkuri atau hydrargyrum (bahasa Latin: Hydrargyrum, air/cairan perak) adalah unsur kimia pada tabel periodik dengan simbol Hg dan nomor atom 80. Unsur golongan logam transisi ini berwarna keperakan dan merupakan satu dari lima unsur (bersama cesium, fransium, galium, dan brom) yang berbentuk cair dalam suhu kamar, serta mudah menguap. Hg akan memadat pada tekanan 7.640 Atm. Kelimpahan Hg di bumi menempati di urutan ke-67 di antara elemen lainnya pada kerak bumi.",
+		"table" : [
+			{"Nomor Atom" : "80"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"U" : {
+		"title" : "Uranium",
+		"img" : [
+			{"Limbah Asap Pabrik" : "uranium/Artboard 1.png"}
+		],
+		"abv" : "U",
+		"caption" : "Uranium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang U dan nomor atom 92. Ia merupakan logam putih keperakan yang termasuk dalam deret aktinida di dalam tabel periodik. Uranium memiliki 92 proton dan 92 elektron, dengan elektron valensi 6. Inti uranium mengikat sebanyak 141 sampai dengan 146 neutron, sehingganya terdapat 6 isotop uranium. Isotop yang paling umum adalah uranium-238 (146 neutron) dan uranium-235 (143 neutron).",
+		"table" : [
+			{"Nomor Atom" : "92s"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"K" : {
+		"title" : "Kalium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "K",
+		"caption" : "Kalium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang K dan nomor atom 19. Dari bahasa Neo-Latin kalium. Ia pertama kali diisolasi dari potas [en], abu tanaman, asal nama bahasa Inggrisnya. Dalam tabel periodik, kalium adalah salah satu logam alkali. Semua logam alkali memiliki satu elektron valensi di kelopak elektron terluarnya, yang mudah dilepaskan untuk membentuk ion bermuatan positif – sebuah kation, yang jika bergabung dengan anion membentuk garam. Kalium di alam hanya terdapat pada garam ionik.",
+		"table" : [
+			{"Nomor Atom" : "80"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"Sc" : {
+		"title" : "Skandium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Sc",
+		"caption" : "Skandium adalah salah satu unsur kimia dalam tabel periodik yang memiliki lambang Sc dan nomor atom 21. Skandium berupa logam transisi yang lembut dan warnanya putih keperakan, merupakan mineral yang langka dari Skandinavia dan kadang-kadang diklasifikasikan bersama yttrium dan lantanida sebagai elemen mineral langka.",
+		"table" : [
+			{"Nomor Atom" : "80"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-states.png"
+	},
+	"V" : {
+		"title" : "Vanadium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "V",
+		"caption" : "Vanadium adalah salah satu unsur kimia dalam tabel periodik yang memiliki lambang V dan nomor atom 23. Salah satu senyawa yang mengandung vanadium antara lain vanadium pentaoksida (V2O5), yang digunakan sebagai katalis dalam pembuatan asam sulfat dan anhidrida maleat, serta dalam pembuatan keramik. Vanadium juga merupakan Logam mulia yang cukup keras, Logam ini hanya bisa ditemukan di tempat-tempat tertentu, seperti pada alga atau ganggang, kerang, dan kepiting.",
+		"table" : [
+			{"Nomor Atom" : "80"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "united-kingdom.png"
+	},
+	"Ga" : {
+		"title" : "Galium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ga",
+		"caption" : "Gallium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ga dan nomor atom 31. Sebuah logam miskin yang jarang, dan lembut, gallium merupakan benda padat yang mudah melebur pada suhu rendah namun mencair lebih lambat di atas suhu kamar dan memang akan melebur di tangan. Terbentuk dalam jumlah sedikit dalam bauksit dan bijih seng. Penerapan pentingnya ialah dalam senyawa galium arsenida, digunakan sebagai semikonduktor, terutama dalam diode pemancar cahaya.",
+		"table" : [
+			{"Nomor Atom" : "31"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"Ge" : {
+		"title" : "Galium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ge",
+		"caption" : "Germanium adalah unsur kimia dengan simbol Ge dan nomor atom 32. Germanium adalah metaloid berkilau, keras, berwarna abu-abu keputihan dalam golongan karbon, secara kimiawi bersifat sama dengan unsur segolongannya timah dan silikon. Germanium murni adalah semikonduktor, dengan penampilan hampir sama dengan unsur silikon. Germanium, sama halnya dengan silikon, secara alamiah bereaksi dan membentuk senyawa kompleks dengan oksigen di alam.",
+		"table" : [
+			{"Nomor Atom" : "32"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"As" : {
+		"title" : "Arsen",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "As",
+		"caption" : "Arsen, arsenik, atau arsenikum adalah unsur kimia dalam tabel periodik yang memiliki simbol As dan nomor atom 33. Ini adalah bahan metaloid yang terkenal beracun dan memiliki tiga bentuk alotropik; kuning, hitam, dan abu-abu. Arsenik dan senyawa arsenik digunakan sebagai pestisida, herbisida, insektisida, dan dalam berbagai aloy.",
+		"table" : [
+			{"Nomor Atom" : "33"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Se" : {
+		"title" : "Selenium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Se",
+		"caption" : "Selenium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Se dan nomor atom 34. Elemen ini ditemukan oleh Jöns Jacob Berzelius pada tahun 1817. Nama ini diambil dari Bahasa Yunani \"Selene\" yang berarti bulan. Rata-rata penggunaan selenium adalah untuk campuran kaca. Beberapa senyawa selenium menghilangkan warna di kaca sementara yang lain memberikan warna merah. Selenium juga dapat digunakan untuk mengurangi sinar matahari yang tembus ke kaca yang menyebabkan warna tembaga (bila dipakai). Selenium terkadang digunakan sebagai pigmen pada cat, keramik dan plastik.",
+		"table" : [
+			{"Nomor Atom" : "34"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Br" : {
+		"title" : "Brom",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Br",
+		"caption" : "Bromin atau brom (bahasa Yunani: βρωμος, brómos - berbau pesing), adalah unsur kimia pada tabel periodik yang memiliki simbol Br dan nomor atom 35. Unsur dari deret kimia halogen ini berbentuk cairan berwarna merah pada suhu kamar dan memiliki reaktivitas di antara klor dan yodium. Dalam bentuk cairan, zat ini bersifat korosif terhadap jaringan sel manusia dan uapnya menyebabkan iritasi pada mata dan tenggorokan. Dalam bentuk gas, bromin bersifat toksik.",
+		"table" : [
+			{"Nomor Atom" : "35"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "russia.png"
+	},
+	"Rb" : {
+		"title" : "Rubidium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Rb",
+		"caption" : "Rubidium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Rb dan nomor atom 37.",
+		"table" : [
+			{"Nomor Atom" : "37"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "russia.png"
+	},
+	"Sr" : {
+		"title" : "Stronsium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Sr",
+		"caption" : "Stronsium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Sr dan nomor atom 38. Sebuah logam alkali tanah, strontium adalah unsur logam lunak perak-putih atau kekuningan yang sangat reaktif kimia. logam membentuk lapisan oksida gelap bila terkena udara. Strontium memiliki sifat fisik dan kimia mirip dengan dua tetangga vertikal dalam tabel periodik, kalsium dan barium. Hal ini terjadi secara alami dalam mineral Celestine, strontianite, dan putnisite, dan ditambang sebagian besar dari dua pertama ini.",
+		"table" : [
+			{"Nomor Atom" : "38"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"Y" : {
+		"title" : "Itrium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Y",
+		"caption" : "Itrium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Y dan nomor atom 39. Itrium adalah logam transisi berwarna putih keperakan yang mirip dengan lantanida dan sering diklasifikasikan sebagai \"logam tanah jarang\". Itrium hampir selalu ditemukan dalam kombinasi dengan unsur-unsur lantanida dalam mineral langka di bumi, dan tidak pernah ditemukan di alam sebagai unsur bebas.",
+		"table" : [
+			{"Nomor Atom" : "39"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Zr" : {
+		"title" : "Zirkonium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Zr",
+		"caption" : "Zirkonium adalah logam putih keabuan yang jarang dijumpai di alam bebas. Ia memiliki lambang kimia Zr, nomor atom 40, massa atom relatif 91,224. Logam zirkonium digunakan dalam teras reaktor nuklir karena tahan korosi dan tidak menyerap neutron. Zircaloy merupakan aliase zirkonium yang penting untuk penyerapan nuklir, seperti menyalut bagian-bagian bahan bakar. Zirkonium banyak terdapat dalam mineral seperti zirkon dan baddelyit. Baddeleyit sendiri merupakan oksida zirkonium yang tahan terhadap suhu luar biasa tinggi sehingga digunakan untuk pelapis tanur.",
+		"table" : [
+			{"Nomor Atom" : "40"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Nb" : {
+		"title" : "Niobium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Nb",
+		"caption" : "Niobium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Nb dan nomor atom 41.",
+		"table" : [
+			{"Nomor Atom" : "41"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Mo" : {
+		"title" : "Molibdenum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Mo",
+		"caption" : "Molibdenum adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Mo dan nomor atom 42. Namanya diambil dari Neo-Latin molybdaenum, dari bahasa Yunani Kuno molybdos, yang berarti timbal, karena bijihnya dirancukan dengan bijih timbal. Mineral molibdenum telah dikenal sepanjang sejarah, tetapi unsurnya ditemukan (dalam arti membedakannya sebagai entitas baru dari garam mineral logam lainnya) pada tahun 1778 oleh Carl Wilhelm Scheele. Logamnya pertama kali diisolasi pada tahun 1781 oleh Peter Jacob Hjelm.",
+		"table" : [
+			{"Nomor Atom" : "42"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "romania.png"
+	},
+	"Tc" : {
+		"title" : "Teknesium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Tc",
+		"caption" : "Teknesium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Tc dan nomor atom 43. Sekarang logam ini digunakan dalam bidang medis.",
+		"table" : [
+			{"Nomor Atom" : "43"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Ru" : {
+		"title" : "Ruthenium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ru",
+		"caption" : "Ruthenium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ru dan nomor atom 44.",
+		"table" : [
+			{"Nomor Atom" : "44"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Rh" : {
+		"title" : "Rhodium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Rh",
+		"caption" : "Rhodium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Rh dan nomor atom 45.",
+		"table" : [
+			{"Nomor Atom" : "45"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Pd" : {
+		"title" : "Paladium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Pd",
+		"caption" : "Paladium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Pd dan nomor atom 46. Ia merupakan logam langka berwarna putih berkilau keperakan yang ditemukan pada tahun 1803 oleh William Hyde Wollaston. Dia menamakannya sesuai nama asteroid Pallas, julukan dewi Yunani Athena, yang diperolehnya ketika dia membunuh Pallas.",
+		"table" : [
+			{"Nomor Atom" : "46"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Ag" : {
+		"title" : "Perak",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ag",
+		"caption" : "Perak adalah unsur logam dengan nomor atom 47. Simbolnya adalah Ag, dari bahasa Latin argentum, dari akar PIE yang direkonstruksi sebagai *h₂erǵ-, \"abu-abu\" atau \"bersinar\". Sebuah logam transisi lunak, putih, dan berkilau, ia memiliki konduktivitas listrik, konduktivitas termal, dan reflektivitas tertinggi di antara semua logam. Logam ini terjadi secara alamiah dalam bentuk murni, bentuk bebas (perak asli), sebagai paduan dengan emas dan logam lainnya, dan dalam mineral seperti argentit dan klorargirit. Kebanyakan perak diproduksi sebagai produk samping penambangan tembaga, emas, timah, dan seng.",
+		"table" : [
+			{"Nomor Atom" : "47"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Cd" : {
+		"title" : "Kadmium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Cd",
+		"caption" : "Kadmium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Cd dan nomor atom 48. Logam lunak dan putih kebiruan ini secara kimiawi serupa dengan dua logam stabil lainnya pada golongan 12, seng dan raksa. Seperti halnya seng, Cd lebih menyukai tingkat oksidasi +2 dalam sebagian besar senyawa dan, seperti raksa, ia menunjukkan titik lebur yang rendah dibandingkan dengan logam transisi pada umumnya.",
+		"table" : [
+			{"Nomor Atom" : "48"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"In" : {
+		"title" : "Indium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "In",
+		"caption" : "Indium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang In dan nomor atom 49. Ini adalah logam pasca transisi yang menyusun 0,21 ppm dari kerak bumi. Indium sangat lembut dan lunak, memiliki titik lebur lebih tinggi daripada natrium dan galium, tetapi lebih rendah daripada litium dan timah. Secara kimiawi, indium mirip dengan galium dan thallium, dan sebagian besar sifatnya berada di antara galium dan thallium.",
+		"table" : [
+			{"Nomor Atom" : "49"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Sb" : {
+		"title" : "Antimon",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Sb",
+		"caption" : "Antimon adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Sb dan nomor atom 51. Lambangnya diambil dari bahasa Latin Stibium. Antimon merupakan metaloid dan mempunyai empatalotropi bentuk. Bentuk stabil antimon adalah logam biru-putih. Antimoni kuning dan hitam adalah logam tak stabil. Antimon digunakan sebagai bahan tahan api, cat, keramik, elektronik, dan karet.",
+		"table" : [
+			{"Nomor Atom" : "51"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"Te" : {
+		"title" : "Telunium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Te",
+		"caption" : "Tellurium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Te dan nomor atom 52. Elemen ini ditemukan oleh Muller von Reicheinstein pada tahun 1782 dan elemen ini dinamakan oleh ahli kimia Jerman Martin Heinrich Klaproth pada 1798. Nama ini diambil dari Bahasa latin \"Tellus\" yang berarti tanah/bumi.",
+		"table" : [
+			{"Nomor Atom" : "52"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Xe" : {
+		"title" : "Xenon",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Xe",
+		"caption" : "Xenon adalah unsur dengan lambang kimia Xe, nomor atom 54 dan massa atom relatif 131,29; berupa gas mulia, tak berwarna, tak berbau dan tidak ada rasanya. Xenon diperoleh dari udara yang dicairkan. Xenon dipergunakan untuk mengisi lampu sorot, dan lampu berintensitas tinggi lainnya, mengisi bilik gelembung yang dipergunakan oleh ahli fisika untuk mempelajari partikel sub-atom.",
+		"table" : [
+			{"Nomor Atom" : "54"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Cs" : {
+		"title" : "Sessium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Cs",
+		"caption" : "Sesium adalah unsur kimia dalam tabel periodik yang memiliki simbol Cs (dari nama Latinnya, Caesium) dan nomor atom 55. Unsur kimia ini merupakan logam alkali yang lunak dan berwarna putih keemasan, yang adalah salah satu dari lima unsur logam berwujud cair pada atau sekitar suhu ruangan. Penggunaan paling terkenal unsur kimia ini adalah dalam jam atom.",
+		"table" : [
+			{"Nomor Atom" : "55"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Ba" : {
+		"title" : "Barium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ba",
+		"caption" : "Barium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ba dan nomor atom 56. Barium adalah unsur kelima pada golongan 2 dan merupakan logam alkali tanah yang lunak dan keperakan. Barium tidak pernah ditemukan di alam sebagai unsur bebas karena reaktivitas kimianya yang tinggi. Hidroksidanya, yang dikenal dalam sejarah pra-modern sebagai barita, tidak terjadi sebagai mineral, tetapi dapat dibuat dengan memanaskan barium karbonat.",
+		"table" : [
+			{"Nomor Atom" : "56"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Hf" : {
+		"title" : "Hafnium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Hf",
+		"caption" : "Hafnium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Hf dan nomor atom 72. Logam transisi ini memiliki sifat kimia yang mirip dengan zirkonium. Hafnium digunakan sebagai campuran aloy wolfram pada filamen dan elektrode, dan juga berperan sebagai penyerap neutron pada pembangkit listrik tenaga nuklir.",
+		"table" : [
+			{"Nomor Atom" : "49"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"Ta" : {
+		"title" : "Tantalum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ta",
+		"caption" : "Tantalum adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ta dan nomor atom 73. Unsur jenis logam transisi ini sangat tahan korosi dan ditemukan pada mineral tantalit. Tantalum digunakan pada alat bedah dan implantasi karena tidak bereaksi dengan cairan tubuh.",
+		"table" : [
+			{"Nomor Atom" : "73"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"W" : {
+		"title" : "Tungsten",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "W",
+		"caption" : "Wolfram, dikenal juga sebagai tungsten, adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang W dan nomor atom 74. Istilah tungsten berasal dari bahasa Swedia tung sten, yang berarti batu berat. Namanya dalam bahasa Swedia adalah volfram, namun untuk membedakan dari scheelit, maka diberi nama alternatif tungsten dalam bahasa Swedia.",
+		"table" : [
+			{"Nomor Atom" : "74"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"Re" : {
+		"title" : "Rhenium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Re",
+		"caption" : "Rhenium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Re dan nomor atom 75.",
+		"table" : [
+			{"Nomor Atom" : "75"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Os" : {
+		"title" : "Osmimum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Os",
+		"caption" : "Osmium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Os dan nomor atom 76.",
+		"table" : [
+			{"Nomor Atom" : "76"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "russia.png"
+	},
+	"Tl" : {
+		"title" : "Talium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Tl",
+		"caption" : "Talium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Tl dan nomor atom 81. Logam ini sangat beracun dan pernah digunakan sebagai bahan racun tikus dan insektisida. Sejak diketahui adanya kemungkinan bahwa unsur ini dapat menyebabkan kanker (walaupun EPA tidak mengklasifikasikannya sebagai karsinogen), penggunaan unsur ini untuk keperluan tersebut telah dikurangi atau dilarang di banyak negara. Talium juga dipergunakan sebagai detektor inframerah.",
+		"table" : [
+			{"Nomor Atom" : "81"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Pb" : {
+		"title" : "Timbal",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Pb",
+		"caption" : "Timbal (disebut juga timbel, plumbum, atau timah hitam)[a] adalah unsur kimia dengan lambang Pb dan nomor atom 82. Unsur ini merupakan logam berat dengan massa jenis yang lebih tinggi daripada banyak bahan yang ditemui sehari-hari. Timbal memiliki sifat lunak, mudah ditempa, dan bertitik leleh rendah. Saat baru dipotong, timbal berwarna perak mengilat kebiruan, tetapi jika terpapar udara permukaannya akan berubah menjadi warna abu-abu buram.",
+		"table" : [
+			{"Nomor Atom" : "82"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Bi" : {
+		"title" : "Bismut",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Bi",
+		"caption" : "Bismut adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Bi dan nomor atom 83. Logam dengan kristal trivalen ini memiliki sifat kimia mirip dengan arsen dan antimon. Dari semua jenis logam, unsur ini paling bersifat diamagnetik dan merupakan unsur kedua setelah raksa yang memiliki konduktivitas termal terendah. Senyawa bismut bebas timbal sering digunakan sebagai bahan kosmetik dan dalam bidang medis.",
+		"table" : [
+			{"Nomor Atom" : "83"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Po" : {
+		"title" : "Polonium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Po",
+		"caption" : "Polonium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Po dan nomor atom 84. Unsur radioaktif yang langka ini termasuk kelompok metaloid yang memiliki sifat kimia yang mirip dengan telurium dan bismut. Elemen pertama yang ditemukan berdasarkan sifat radioaktifnya, polonium ditemukan di pithblende pada 1989 oleh ahli kimia Prancis yaitu Marie Curie, dinamakan berdasarkan Negara asalnya Polandia. Polonium adalah salah satu elemen dari uranium-radium dan merupakan anggota dari uranium-238.",
+		"table" : [
+			{"Nomor Atom" : "84"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"At" : {
+		"title" : "Astatin",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "At",
+		"caption" : "Astatin adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang At dan nomor atom 85. Nama unsur ini berasal dari bahasa Yunani αστατος (astatos) yang berarti \"tak stabil\". Unsur ini termasuk golongan halogen dan merupakan unsur radioaktif yang terbentuk secara alami melalui peluruhan uranium-235 and uranium-238. Dulu, astatin sempat dinamakan Anglo-Helvetium.",
+		"table" : [
+			{"Nomor Atom" : "85"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Rn" : {
+		"title" : "Radon",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Rn",
+		"caption" : "Radon adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Rn dan nomor atom 86. Radon juga termasuk dalam kelompok gas mulia dan beradioaktif. Radon terbentuk dari penguraian radium. Radon juga gas yang paling berat dan berbahaya bagi kesehatan. Rn-222 mempunyai waktu paruh 3,8 hari dan digunakan dalam radioterapi. Radon dapat memicu kanker paru paru dan telah menyebabkan 20.000 kematian di Uni Eropa setiap tahunnya.",
+		"table" : [
+			{"Nomor Atom" : "86"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "austria.png"
+	},
+	"Fr" : {
+		"title" : "Fransium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Fr",
+		"caption" : "Fransium adalah unsur kimia dengan simbol Fr dan nomor atom 87. Unsur ini dulunya dikenal dengan nama eka-caesium. Unsur ini sangat radioaktif; isotopnya yang paling stabil, fransium-223 (awalnya disebut aktinium-K), memiliki waktu paruh hanya 22 menit. Unsur ini adalah elemen elektronegatif paling rendah kedua setelah sesium dan elemen kedua paling langka yang ada di alam setelah astatin. Isotop dari fransium sangat cepat meluruh menjadi astatin, radium, dan radon. Sebagai logam alkali, unsur ini memiliki satu elektron valensi.",
+		"table" : [
+			{"Nomor Atom" : "87"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "spain.png"
+	},
+	"Ra" : {
+		"title" : "Radium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ra",
+		"caption" : "Radium adalah sebuah unsur kimia yang mempunyai simbol Ra dan nomor atom 88 (lihat tabel periodik). Radium berwarna hampir putih bersih, tetapi akan teroksidasi jika terekspos kepada udara dan berubah menjadi hitam. Radium mempunyai tingkat radioaktivitas yang tinggi. Isotopnya yang paling stabil, Ra-226, mempunyai waktu paruh selama 1602 tahun dan kemudian berubah menjadi gas radon.",
+		"table" : [
+			{"Nomor Atom" : "88"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Rf" : {
+		"title" : "Ruterfordium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Rf",
+		"caption" : "Ruterfordium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Rf dan nomor atom 104. Merupakan unsur sintetik yang amat radioaktif yang sebagian besar isotop stabilnya ialah 265Rf dengan waktu paruh sekitar 13 jam. Nama ini diambil bedasarkan nama ilmuwan Ernst Rutherford. Kemudian unsur ini tak digunakan untuk apapun dan sedikit yang diktahui tentangnya. Ruterfordium ialah unsur transaktinida pertama dan diperkirakan memiliki sifat kimia yang mirip dengan hafnium.",
+		"table" : [
+			{"Nomor Atom" : "104"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "sweden.png"
+	},
+	"Db" : {
+		"title" : "Dubnium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Db",
+		"caption" : "Dubnium/Hahnium adalah unsur kimia dalam sistem periodik unsur yang memiliki simbol Db dan nomor atom 105. Unsur ini merupakan unsur sintetik yang bersifat radioaktif. Nama elemen ini diambil dari nama kota di Rusia, Dubna.",
+		"table" : [
+			{"Nomor Atom" : "105"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Sg" : {
+		"title" : "Seabogium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Sg",
+		"caption" : "Nobelium adalah elemen sintentik dengan lambang No dan nomor atom 102. Nobelium pertama kali dikenal pada tahun 1956 oleh ilmuwan di Laboratorium Flerov di Dubna, Rusia. Nama ini diambil untuk mengenang Alfred Nobel, penemu dinamit.",
+		"table" : [
+			{"Nomor Atom" : "106"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Bh" : {
+		"title" : "Bahrium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Bh",
+		"caption" : "Bohrium adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Bh dan nomor atom 107. Nama elemen ini bertujuan untuk mengenang Niels Bohr, penemu orbit elektron.",
+		"table" : [
+			{"Nomor Atom" : "107"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Hs" : {
+		"title" : "Hasium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Hs",
+		"caption" : "Hasium adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Hs dan nomor atom 108.",
+		"table" : [
+			{"Nomor Atom" : "108"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Mt" : {
+		"title" : "Meitnerium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Mt",
+		"caption" : "Meitnerium adalah unsur kimia dalam sistem periodik unsur yang memiliki lambang Mt dan nomor atom 109.",
+		"table" : [
+			{"Nomor Atom" : "109"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"Ds" : {
+		"title" : "Darmstadtium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ds",
+		"caption" : "Darmstadtium sebelumnya disebut Ununnilium, adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Ds dan nomor atom 110.",
+		"table" : [
+			{"Nomor Atom" : "110"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Rg" : {
+		"title" : "Roentgenium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Rg",
+		"caption" : "Roentgenium Tentang suara ini pelafalan adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Rg dan nomor atom 111. Roentgenium adalah unsur sintetis yang sangat radioaktif yang dapat dibuat di laboratorium tetapi tidak ditemukan di alam.282Rg, memiliki waktu paruh 2,1 menit. Roentgenium pertama kali dibuat pada tahun 1994 oleh GSI Helmholtz Centre for Heavy Ion Research dekat Darmstadt, Jerman. Namanya diambil dari nama Wilhelm Röntgen, seorang fisikawan yang menemukan sinar-X.",
+		"table" : [
+			{"Nomor Atom" : "111"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Cn" : {
+		"title" : "Kopernisium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Cn",
+		"caption" : "Kopernisium (hingga 19 Februari 2010 memiliki nama sementara ununbium) adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Cn (sebelumnya Uub) dan nomor atom 112. Unsur 112 tergolong unsur yang sangat berat. Jika mengikuti kecenderungan pada tabel periodik, seharusnya wujudnya berupa metal cair yang lebih volatil (mudah menguap) daripada raksa.\n\nUnunbium secara resmi dinamakan Kopernisium dengan simbol Cn pada ulang tahun ke 537 Nicolaus Copernicus oleh IUPAC.",
+		"table" : [
+			{"Nomor Atom" : "112"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Nh" : {
+		"title" : "Nihonium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Nh",
+		"caption" : "Nihonium adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Nh dan nomor atom 113. Nihonium berasal dari kata Nihon yang berarti matahari.",
+		"table" : [
+			{"Nomor Atom" : "113"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Fl" : {
+		"title" : "Flerovium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Fl",
+		"caption" : "Flerovium (sebelumnya bernama Ununquadium) adalah unsur kimia buatan dalam sistem periodik unsur yang memiliki lambang Fl (sebelumnya Uuq) dan nomor atom 114. Flevorium diduga memiliki sifat-sifat gas mulia ketimbang sifat-sifat logam. Pada tanggal 29 Mei 2012 nama Flerovium telah disetujui oleh IUPAC setelah sebelumnya menggunakan nama Ununquadium. Nama diambil dari Flerov Laboratory of Nuclear Reactions di Dubna, Rusia, tempat di mana unsur ini dibuat.",
+		"table" : [
+			{"Nomor Atom" : "114"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Mc" : {
+		"title" : "Moskovium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Mc",
+		"caption" : "Moskovium adalah unsur kimia dalam sistem periodik unsur yang memiliki lambang Mc dan nomor atom 115. Nama elemen ini diambil dari sebuah kota di Rusia, Moskow.",
+		"table" : [
+			{"Nomor Atom" : "115"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Lv" : {
+		"title" : "Livermorium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Lv",
+		"caption" : "Livermorium (sebelumnya bernama Ununheksium) adalah nama dari unsur kimia buatan super berat dengan simbol Lv (sebelumnya Uuh) dan nomor atom 116. Pada tanggal 29 Mei 2012 nama Livermorium telah disetujui oleh IUPAC setelah sebelumnya menggunakan nama sementara Ununheksium. Nama diambil dari Lawrence Livermore National Laboratory di California, asal tim ilmuwan yang menciptakan.",
+		"table" : [
+			{"Nomor Atom" : "116"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Ts" : {
+		"title" : "Tenesin",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ts",
+		"caption" : "Tenesin (nama lama: Ununseptium) adalah nama sementara dari unsur kimia buatan super berat dengan simbol Ts dan nomor atom 117. Enam atom terdeteksi oleh sebuah kolaborasi bersama Rusia-AS di Dubna, Moskow Oblast, Rusia, pada Oktober 2009. Meskipun saat ini ditempatkan sebagai anggota terberat dari keluarga halogen, tidak ada bukti eksperimental yang sifat kimia dari ununseptium cocok dengan anggota ringan seperti yodium atau astatin dan analisis teoretis menunjukkan mungkin ada beberapa perbedaan penting.",
+		"table" : [
+			{"Nomor Atom" : "117"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"Og" : {
+		"title" : "Oganeson",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Og",
+		"caption" : "Oganeson adalah unsur kimia sintetis dengan simbol Og dan nomor atom 118. Unsur ini pertama kali disintesis pada tahun 2002 oleh tim gabungan ilmuwan Rusia dan Amerika Serikat di Joint Institute for Nuclear Research (JINR) di Dubna, Rusia. Pada bulan Desember 2015, dan ditetapkan sebagai salah satu satu dari empat elemen baru oleh Joint Working Party (Kelompok Kerja Gabungan) dari IUPAC dan IUPAP. Nama unsur ini diresmikan pada tanggal 28 November 2016,[12][13] sesuai dengan tradisi penamaan unsur baru berdasarkan nama ilmuwan, ilmuan yang namanya dipakai adalah fisikawan nuklir Yuri Oganessian.",
+		"table" : [
+			{"Nomor Atom" : "118"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "italy.png"
+	},
+	"La" : {
+		"title" : "Lantanum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "La",
+		"caption" : "Lantanum adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang La dan nomor atom 57. Namanya berasal dari bahasa Yunani lanthanein yang artinya \"tersembunyi\". Unsur ini sering dikelompokkan sebagai lantanida dan bersifat sangat reaktif.",
+		"table" : [
+			{"Nomor Atom" : "57"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Ce" : {
+		"title" : "Serium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ce",
+		"caption" : "Serium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ce dan nomor atom 58. Unsur yang termasuk deret lantanida ini sering digunakan sebagai unsur pembentuk aloy aluminium dan aloy magnesium.",
+		"table" : [
+			{"Nomor Atom" : "58"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Pr" : {
+		"title" : "PraseodimiumPr",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Pr",
+		"caption" : "Praseodimium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Pr dan nomor atom 59.",
+		"table" : [
+			{"Nomor Atom" : "59"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Nd" : {
+		"title" : "Neodimium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Nd",
+		"caption" : "Neodimium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Nd dan nomor atom 60. Unsur lantanida ini digunakan antara lain untuk bahan pewarna kaca.",
+		"table" : [
+			{"Nomor Atom" : "60"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Pm" : {
+		"title" : "Lantanum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Pm",
+		"caption" : "Prometium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Pm dan nomor atom 61.",
+		"table" : [
+			{"Nomor Atom" : "61"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Sm" : {
+		"title" : "Lantanum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Sm",
+		"caption" : "amarium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Sm dan nomor atom 62.",
+		"table" : [
+			{"Nomor Atom" : "62"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Eu" : {
+		"title" : "Europium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Eu",
+		"caption" : "Europium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Eu dan nomor atom 63.",
+		"table" : [
+			{"Nomor Atom" : "63"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Gd" : {
+		"title" : "Gadolinium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Gd",
+		"caption" : "Gadolinium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Gd dan nomor atom 64. Tabel periodik (besar)Logam alkali Logam alkali tanah tanida\tAktinida\tLogam transisi\tLogam miskiMetaloid Nonlogam poliatomik Nonlogam diatomik Gas mulia Sifat kimia belum diketahui",
+		"table" : [
+			{"Nomor Atom" : "64"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Tb" : {
+		"title" : "Terbium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Tb",
+		"caption" : "Terbium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Tb dan nomor atom 65. Terbium berwarna putih keperakan, dan tergolong metal yang langka. Metal ini cukup lunak, dan bisa dibelah dengan pisau biasa. Pertama kali ditemukan oleh ahli kimia Swedia, Carl Gustaf Mosander pada tahun 1843.",
+		"table" : [
+			{"Nomor Atom" : "65"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Dy" : {
+		"title" : "Lantanum",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Dy",
+		"caption" : "Disprosium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Dy dan nomor atom 66. Disprosium tidak dapat ditemukan di alam sebagai elemen bebas, tetapi dapat ditemukan di beberapa mineral seperti xenotim.",
+		"table" : [
+			{"Nomor Atom" : "66"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"Ho" : {
+		"title" : "Holmium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ho",
+		"caption" : "Holmium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ho dan nomor atom 67. Nama elemen ini berasal dari kata Holmia, kata Latin untuk Stockholm.",
+		"table" : [
+			{"Nomor Atom" : "67"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Er" : {
+		"title" : "Erbium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Er",
+		"caption" : "Erbium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Er dan nomor atom 68.",
+		"table" : [
+			{"Nomor Atom" : "68"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Tm" : {
+		"title" : "Tulium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Tm",
+		"caption" : "Tulium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Tm dan nomor atom 69.",
+		"table" : [
+			{"Nomor Atom" : "69"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "rusia.png"
+	},
+	"Yb" : {
+		"title" : "Iterbium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Yb",
+		"caption" : "Iterbium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Yb dan nomor atom 70.",
+		"table" : [
+			{"Nomor Atom" : "67"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Ac" : {
+		"title" : "Aktinium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Ac",
+		"caption" : "Aktinium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Ac dan nomor atom 89. Ia adalah unsur kimia radioaktif yang ditemukan tahun 1899. Ia adalah unsur radioaktif non-primordial pertama yang diisolasi: polonium, radium dan radon diamati sebelum aktinium, namun baru diisolasi tahun 1902. Aktinium memberi nama pada deret aktinida, golongan yang berisi 15 unsur serupa antara aktinium dan lawrencium pada tabel periodik. Ini juga kadang-kadang dianggap sebagai logam transisi periode ke-7 yang pertama, walaupun lawrencium kurang umum berada pada posisi itu.",
+		"table" : [
+			{"Nomor Atom" : "89"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Th" : {
+		"title" : "Torium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Th",
+		"caption" : "Torium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Th dan nomor atom 90. Logam torium berwarna keperakan dan bernoda hitam saat terkena udara, membentuk dioksida; unsur ini cukup keras, mudah dibentuk, dan memiliki titik lebur yang tinggi. Torium adalah aktinida elektropositif yang didominasi oleh keadaan oksidasi +4; unsur ini cukup reaktif dan bisa menyala di udara saat terbagi halus.",
+		"table" : [
+			{"Nomor Atom" : "90"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Pa" : {
+		"title" : "Protaktinium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Pa",
+		"caption" : "Protaktinium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Pa dan nomor atom 91.",
+		"table" : [
+			{"Nomor Atom" : "91"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "germany.png"
+	},
+	"Np" : {
+		"title" : "Neptunium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Np",
+		"caption" : "Neptunium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Np dan nomor atom 93. Unsur logam radioaktif berwarna keperakan ini merupakan unsur transuranium pertama dan merupakan unsur deret kimia aktinida. Isotop paling stabilnya, 237Np, adalah produk samping reaktor nuklir dan produksi plutonium dan dapat digunakan sebagai komponen perangkat deteksi neutron. Neptunium juga ditemukan dalam jumlah kecil dalam bijih uranium.",
+		"table" : [
+			{"Nomor Atom" : "93"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Lr" : {
+		"title" : "Lawrensium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Lr",
+		"caption" : "Lawrensium adalah unsur kimia yang berlambang Lr (sebelumnya Lw) dan memiliki nomor atom 103. Unsur ini merupakan unsur sintetik yang radioaktif. Isotop Lawrensium yang paling stabil adalah 266Lr.",
+		"table" : [
+			{"Nomor Atom" : "103"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Cm" : {
+		"title" : "Kurium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Cm",
+		"caption" : "Kurium adalah unsur kimia sintetik dalam sistem periodik unsur yang memiliki lambang Cm dan nomor atom 96. Nama elemen ini diambil dari nama ilmuwan Marie Curie.",
+		"table" : [
+			{"Nomor Atom" : "96"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Bk" : {
+		"title" : "Berkelium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Bk",
+		"caption" : "Berkelium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Bk dan nomor atom 97. Unsur sintetik logam radioaktif anggota deret kimia aktinida ini pertama kali disintesis dengan menembakkan amerisium dengan partikel alfa (ion helium) dan diberi nama dari nama Berkeley, California dan Universitas California, Berkeley. Berkelium merupakan unsur transuranium kelima yang berhasil disintesis.",
+		"table" : [
+			{"Nomor Atom" : "97"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Cf" : {
+		"title" : "Kalifornium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Cf",
+		"caption" : "Kalifornium adalah unsur kimia dalam sistem periodik unsur yang memiliki lambang Cf dan nomor atom 98.",
+		"table" : [
+			{"Nomor Atom" : "98"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "austria.png"
+	},
+	"Es" : {
+		"title" : "Einsteinium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Es",
+		"caption" : "Einsteinium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Es dan nomor atom 99. Logam sintetik unsur transuranium yang sangat radioaktif ini merupakan anggota deret kimia aktinida dan diproduksi dengan menembakkan neutron pada plutonium dan ditemukan pada sisa uji coba bom hidrogen pertama. Namanya diambil dari nama Albert Einstein dan belum diketahui penggunaannya. Uji lacak dengan menggunakan isotop 253Es menunjukkan bahwa unsur ini memiliki sifat kimia khas trivalen berat unsur aktinida.",
+		"table" : [
+			{"Nomor Atom" : "99"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Fm" : {
+		"title" : "Fermium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Fm",
+		"caption" : "Fermium adalah unsur kimia dalam sistem periodik unsur yang memiliki lambang Fm dan nomor atom 100. Fermium merupakan unsur sintetis yang radioaktif.",
+		"table" : [
+			{"Nomor Atom" : "100"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"Md" : {
+		"title" : "Mendelevium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "Md",
+		"caption" : "Mendelevium adalah elemen sintetik dengan lambang Md (sebelumnya Mv) dan nomor atom 101. Unsur ini dinamai dari Dmitri Mendeleev, seorang ahli kimia penemu tabel periodik.\n\nUnsur ini termasuk ke dalam golongan aktinida. Unsur ini juga merupakan unsur radioaktif.",
+		"table" : [
+			{"Nomor Atom" : "101"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
+	},
+	"No" : {
+		"title" : "Nobelium",
+		"img" : [
+			{"Gambar tidak ada" : "x.png"}
+		],
+		"abv" : "No",
+		"caption" : "Nobelium  adalah elemen sintentik dengan lambang No dan nomor atom 102. Nobelium pertama kali dikenal pada tahun 1956 oleh ilmuwan di Laboratorium Flerov di Dubna, Rusia. Nama ini diambil untuk mengenang Alfred Nobel, penemu dinamit.",
+		"table" : [
+			{"Nomor Atom" : "102"},
+			{"Golongan" : "golongan 1"},
+			{"Periode" : "periode 2"},
+			{"Bobot standar atom" : "24.3050"},
+			{"Konfigurasi elektron" : "2,8,2"},
+			{"Titik lebur" : "0.95K"},
+			{"Titik didih" : "4.22K"}
+		],
+		"found" : "france.png"
 	}
-};
+}
