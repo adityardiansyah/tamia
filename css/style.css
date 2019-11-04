@@ -41,7 +41,7 @@
 .about-us{
 	border-radius: 0.5em;
 	/*margin: 3vh 3vh 0 3vh;*/
-	margin: -110vh 3vh 0 3vh;
+	margin: -210vh 3vh 0 3vh;
 	background: linear-gradient(129deg, rgba(178,1,153,1) 0%, rgba(73,0,161,1) 100%);
 	/*padding-bottom: 10vh;*/
 	height: 97vh;
@@ -49,9 +49,59 @@
 	top: 0;
 	z-index: 5;
 	/*height: 100%;*/
-	/*transition: .5s;*/
 	width: 97%;
 	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+}
+
+.about-us img{
+	width: 8em;
+	transition: .5s;
+	z-index: 2;
+}
+
+.about-us-wrapper{
+	text-align: center;
+	margin-top: 4em;
+}
+
+.about-us-img{
+	height: 22em;
+	position: relative;
+}
+
+.about-us-team{
+	font-size: 20em;
+	color: rgba(255,255,255,0.2);
+	position: absolute;
+	width: 105vw;
+	top: 0;
+	text-align: center;
+	font-weight: 900;
+	z-index: -1;
+}
+
+.about-us-wrapper img{
+	box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+	border-radius: 0.2em;
+	margin: 0em 1em 0em 1em;
+}
+
+.about-us-caption{
+	margin-top: 2em;
+}
+
+.about-us-name{
+	font-size: 2em;
+	color: white;
+}
+
+.about-us-as{
+	font-size: 0.7em;
+	color: white;
+}
+
+.about-us-motto{
+	color: white;
 }
 
 
@@ -60,7 +110,7 @@
 .detail-wrapper{
 	border-radius: 0.5em;
 	/*margin: 3vh 3vh 0 3vh;*/
-	margin: 110vh 3vh 0 3vh;
+	margin: 210vh 3vh 0 3vh;
 	background: linear-gradient(129deg, rgba(178,1,153,1) 0%, rgba(73,0,161,1) 100%);
 	/*padding-bottom: 10vh;*/
 	height: 105vh;
@@ -190,31 +240,31 @@
 	/*position: absolute;*/
 }
 
-.carousel-control-prev{
+#carouselExampleControls .carousel-control-prev{
 	opacity: 1;
 }
 
-.carousel-control-next{
+#carouselExampleControls .carousel-control-next{
 	opacity: 1;
 }
 
-.carousel-control-prev-icon{
+#carouselExampleControls .carousel-control-prev-icon{
 	background: none;
 	font-size: 2em;
 	opacity: 1;
 }
 
-.carousel-control-next-icon{
+#carouselExampleControls .carousel-control-next-icon{
 	background: none;
 	font-size: 2em;
 	opacity: 1;
 }
 
-.carousel-item{
+#carouselExampleControls .carousel-item{
 	text-align: center;
 }
 
-.carousel-item img{
+#carouselExampleControls .carousel-item img{
 	width: 70%;
 }
 
