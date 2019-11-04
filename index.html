@@ -1433,11 +1433,13 @@
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/confetti.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/scrollreveal.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/owl.carousel.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/data.json" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8" defer>
 	let cell_data = detail_cell_data;
 	console.log(cell_data);
+	if (screen.width > 768) {
+		console.log('screen get');
+	}
 	$(window).load(function() {
 		ScrollReveal().reveal('.card-red', {
 			interval : 50,
