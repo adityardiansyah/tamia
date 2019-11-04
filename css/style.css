@@ -138,6 +138,9 @@
 	text-align: right;
 	margin: -0.2em 0.1em 0em 0em;
 }
+.detail-exit:hover{
+	cursor: pointer;
+}
 
 .menu-detail{
 	height: 100vh;
@@ -275,6 +278,7 @@
 
 .discovery-state{
 	width: 1em;
+	margin-left: 16px;
 }
 
 .detail-content-wrapper{
@@ -295,7 +299,7 @@
 }
 
 .detail-content-wrapper h2{
-
+	font-size: 30pt;
 	direction: ltr;
 }
 
@@ -436,9 +440,18 @@ footer{
     left: 40%;
 }
 .quiz-done{
-	font-size: 0.5em;
-	border-bottom: 1px solid white;
+	font-size: 17pt;
 	cursor: pointer;
+	position: absolute;
+	top:0;
+	right: 6px;
+}
+.quiz-score{
+	font-size: 11pt;
+    float: left;
+}
+.quiz-value{
+	letter-spacing: 2px;
 }
 .card-red{
 	background-color: #DF6362;
@@ -494,7 +507,7 @@ footer{
 }
 .dark-cover-quiz{
 	background-color: rgba(0,0,0,0.5);
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 100vw;
 	height: 100vh;
@@ -515,6 +528,7 @@ footer{
 }
 .frame-small:hover{
 	transform: scale(1.2);
+	z-index: 2;
 	box-shadow: 0px 3px 9px #474747;
 }
 .filter-group{

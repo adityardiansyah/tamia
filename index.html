@@ -24,7 +24,7 @@
 	<img src="img/bg-1.png" id="bg-1" alt="">
 	<img src="img/bg-2.png" id="bg-2" alt="">
 	<nav class="navbar navbar-expand-lg">
-	  <a class="navbar-brand" href="#">
+	  <a class="navbar-brand" href="index.html">
 	  	<img src="img/logo.png" alt="">
 	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -1292,7 +1292,7 @@
 				</div>
 				<div class="detail-content-wrapper">
 					<h2>Magnesium</h2>
-					<br><br>
+					<br>
 					<p>
 						Magnesium adalah suatu unsur kimia dalam tabel periodik yang memiliki lambang Mg dan nomor atom 12. Ia berupa padatan abu-abu mengkilap yang memiliki kemiripan fisik dengan lima unsur lainnya pada kolom kedua (golongan 2, atau logam alkali tanah) tabel periodik: semua unsur golongan 2 memiliki konfigurasi elektron yang sama pada kelopak elektron terluar dan struktur kristal yang serupa.
 					</p>
@@ -1357,7 +1357,7 @@
 							</div>
 						</div>
 					</div>
-					<br><br>
+					<br>
 					<div class="detail-menu-wrapper">
 						<div class="row real-row">
 							<div class="col-16 menu-parent">
@@ -1948,8 +1948,9 @@
 			$('.quiz-challenge-wrapper').remove();
 			$('body').append(`
 				<div class="quiz-challenge-wrapper" style="display:none; z-index: 1">
-					${quiz_right}/${quiz_ses}
-					<div class="quiz-done" onClick="end_quiz()">Finish</div>
+					<span class="quiz-score">Score</span>	
+					<span class="quiz-value">${quiz_right}/${quiz_ses}</span>
+					<div class="quiz-done" onClick="end_quiz()" title="Kembali"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M18.36 19.78L12 13.41l-6.36 6.37l-1.42-1.42L10.59 12L4.22 5.64l1.42-1.42L12 10.59l6.36-6.36l1.41 1.41L13.41 12l6.36 6.36z" fill="white"/></svg></div>
 				</div>
 				<div class="dark-cover-quiz"></div>
 			`);
@@ -2000,6 +2001,7 @@
 				});
 			});
 		});
+		$('.nav-item').css({"border-bottom" :" none"});
 		$('.dark-cover-quiz').fadeOut('slow', () => {
 			$('.dark-cover-quiz').remove();
 		});
